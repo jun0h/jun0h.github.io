@@ -1,4 +1,4 @@
-const cacheName = "DefaultCompany-Portfolio Unity-1.0";
+const cacheName = "Dany Makes Games-Dany's Portfolio-1.0";
 const contentToCache = [
     "Build/Jun0h.github.io.loader.js",
     "Build/Jun0h.github.io.framework.js",
