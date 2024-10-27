@@ -1,0 +1,294 @@
+{
+  "resolvedId": "C:/Users/dosor/Desktop/win95/views/GodotContainer.vue?vue&type=style&index=0&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n\r\n.grid-container1 {\r\n  display: grid;\r\n  grid-template-columns: repeat(4, 1fr); \r\n  padding: 10px;\r\n}\r\n\r\n.grid-item {\r\n  background-color: #ccc;\r\n  padding: 20px;\r\n  text-align: center;\r\n}\r\n\r\n.icon-image1 {\r\n  width: 50px;\r\n  height: 50px;\r\n  margin-bottom: 5px;\r\n}\r\n\r\n.image-center {\r\n    display: flex;\r\n    justify-content: center; /* Centre l'image horizontalement */\r\n    align-items: center; /* Centre l'image verticalement (si nécessaire) */\r\n}\r\n\r\n\r\n    ",
+      "start": 1730054951568,
+      "end": 1730054951568,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/dosor/Desktop/win95/views/GodotContainer.vue"
+        ],
+        "names": [],
+        "mappings": ";;AAkEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;EACf,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;EACb,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;EACrC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;AACf;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;EACT,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;EACtB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;EACb,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpB;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;EACX,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;EACX,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;EACZ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC;AACpB;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACV,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACb,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC;IAC5D,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC;AAC1E",
+        "file": "C:/Users/dosor/Desktop/win95/views/GodotContainer.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<script setup>\r\nimport { onMounted } from 'vue';\r\nimport {useWindowsStore} from '~/stores/windows'\r\n\r\nconst windowsStore = useWindowsStore()\r\n\r\nconst gridHeight = ref(\"\")\r\n\r\nconst openWindow = (windowId) => {\r\n    const payload = {\r\n        windowState: \"open\",\r\n        windowId: windowId\r\n    }\r\n    console.log(payload)\r\n    windowsStore.setWindowState(payload)\r\n}\r\n  \r\nconst getImagePath = (iconImage) => {\r\n    const path = `~/assets/win95Icons/${iconImage}`;\r\n    const modules = import.meta.glob(\"~/assets/win95Icons/*\", { eager: true });\r\n    const mod = modules[path]\r\n    console.log(\"ui\");\r\n    return mod.default;\r\n};\r\n\r\nonMounted(() => {\r\n    let gridH = windowsStore.getFullscreenWindowHeight\r\n    gridHeight.value = 10 + \"px\"\r\n})\r\n\r\n</script>\r\n\r\n\r\n\r\n<template>\r\n<div style=\"display: flex; align-items: center;\">\r\n    <img class=\"w-50 h-20\" src=\"../assets/win95Icons/GodotLogo.png\" alt=\"Godot Logo\" />\r\n    <h1 style=\"margin-left: 10px;\">Godot Projects</h1>\r\n</div>\r\n\r\n    <h3>All my Godot projects done in my first year at ISART!</h3>\r\n    <p>Click on the icons to open the projects!</p>\r\n      <nav class=\"grid-container1\" :style=\"{ height: gridHeight }\">\r\n        <li v-for=\"window in windowsStore.windows\" :key=\"window.key\">\r\n          <button\r\n            class=\"icon\"\r\n            v-if=\"window.ShowInGodotGrid != false\"\r\n            @touchstart=\"openWindow(window.windowId)\"\r\n            @dblclick=\"openWindow(window.windowId)\"\r\n          >\r\n            <img class=\"icon-image1\" :src=\"getImagePath(window.iconImage)\" :alt=\"window.altText\" />\r\n            <div class=\"border-box\">\r\n              <p class=\"icon-text\">\r\n                {{ window.displayName }}\r\n              </p>\r\n            </div>\r\n          </button>\r\n        </li>\r\n      </nav>\r\n\r\n    </template>\r\n\r\n    \r\n \r\n    <style>\r\n\r\n.grid-container1 {\r\n  display: grid;\r\n  grid-template-columns: repeat(4, 1fr); \r\n  padding: 10px;\r\n}\r\n\r\n.grid-item {\r\n  background-color: #ccc;\r\n  padding: 20px;\r\n  text-align: center;\r\n}\r\n\r\n.icon-image1 {\r\n  width: 50px;\r\n  height: 50px;\r\n  margin-bottom: 5px;\r\n}\r\n\r\n.image-center {\r\n    display: flex;\r\n    justify-content: center; /* Centre l'image horizontalement */\r\n    align-items: center; /* Centre l'image verticalement (si nécessaire) */\r\n}\r\n\r\n\r\n    </style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1730054951568,
+      "end": 1730054951568,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1730054951568,
+      "end": 1730054951568,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1730054951568,
+      "end": 1730054951568,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1730054951568,
+      "end": 1730054951568,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1730054951568,
+      "end": 1730054951568,
+      "order": "pre"
+    },
+    {
+      "name": "server-only-component-transform",
+      "start": 1730054951568,
+      "end": 1730054951568,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".grid-container1{display:grid;grid-template-columns:repeat(4,1fr);padding:10px}.grid-item{background-color:#ccc;padding:20px;text-align:center}.icon-image1{height:50px;margin-bottom:5px;width:50px}.image-center{align-items:center;display:flex;justify-content:center}",
+      "start": 1730054951568,
+      "end": 1730054951570,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/dosor/Desktop/win95/views/GodotContainer.vue",
+        "mappings": "AAEA,iBACE,YAAa,CACb,mCAAqC,CACrC,YACF,CAEA,WACE,qBAAsB,CACtB,YAAa,CACb,iBACF,CAEA,aAEE,WAAY,CACZ,iBAAkB,CAFlB,UAGF,CAEA,cAGI,kBAAmB,CAFnB,YAAa,CACb,sBAEJ",
+        "names": [],
+        "sources": [
+          "C:/Users/dosor/Desktop/win95/views/GodotContainer.vue"
+        ],
+        "sourcesContent": [
+          "\r\n\r\n.grid-container1 {\r\n  display: grid;\r\n  grid-template-columns: repeat(4, 1fr); \r\n  padding: 10px;\r\n}\r\n\r\n.grid-item {\r\n  background-color: #ccc;\r\n  padding: 20px;\r\n  text-align: center;\r\n}\r\n\r\n.icon-image1 {\r\n  width: 50px;\r\n  height: 50px;\r\n  margin-bottom: 5px;\r\n}\r\n\r\n.image-center {\r\n    display: flex;\r\n    justify-content: center; /* Centre l'image horizontalement */\r\n    align-items: center; /* Centre l'image verticalement (si nécessaire) */\r\n}\r\n\r\n\r\n    "
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1730054951570,
+      "end": 1730054951570,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1730054951570,
+      "end": 1730054951570,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1730054951570,
+      "end": 1730054951570,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".grid-container1{display:grid;grid-template-columns:repeat(4,1fr);padding:10px}.grid-item{background-color:#ccc;padding:20px;text-align:center}.icon-image1{height:50px;margin-bottom:5px;width:50px}.image-center{align-items:center;display:flex;justify-content:center}",
+      "start": 1730054951570,
+      "end": 1730054951570,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/dosor/Desktop/win95/views/GodotContainer.vue",
+        "mappings": "AAAA,iBAAiB,YAAY,CAAC,mCAAmC,CAAC,YAAY,CAAC,WAAW,qBAAqB,CAAC,YAAY,CAAC,iBAAiB,CAAC,aAAa,WAAW,CAAC,iBAAiB,CAAC,UAAU,CAAC,cAAc,kBAAkB,CAAC,YAAY,CAAC,sBAAsB",
+        "names": [],
+        "sources": [
+          "C:/Users/dosor/Desktop/win95/views/GodotContainer.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1730054951570,
+      "end": 1730054951570,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951570,
+      "end": 1730054951571,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951570,
+      "end": 1730054951571,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1730054951571,
+      "end": 1730054951571,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1730054951571,
+      "end": 1730054951571,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1730054951571,
+      "end": 1730054951571,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951571,
+      "end": 1730054951571,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1730054951571,
+      "end": 1730054951571,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1730054951571,
+      "end": 1730054951571,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "",
+      "start": 1730054951571,
+      "end": 1730054951571,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1730054951571,
+      "end": 1730054951571,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1730054951571,
+      "end": 1730054951571,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1730054951571,
+      "end": 1730054951571,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1730054951571,
+      "end": 1730054951572,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1730054951572,
+      "end": 1730054951572,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1730054951572,
+      "end": 1730054951572,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1730054951572,
+      "end": 1730054951572,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1730054951572,
+      "end": 1730054951572,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1730054951572,
+      "end": 1730054951572,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1730054951572,
+      "end": 1730054951572,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1730054951572,
+      "end": 1730054951572,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1730054951572,
+      "end": 1730054951572,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1730054951572,
+      "end": 1730054951572,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1730054951572,
+      "end": 1730054951572,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1730054951572,
+      "end": 1730054951572,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1730054951572,
+      "end": 1730054951572,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1730054951572,
+      "end": 1730054951572,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1730054951572,
+      "end": 1730054951572,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1730054951572,
+      "end": 1730054951572,
+      "order": "normal"
+    }
+  ]
+}

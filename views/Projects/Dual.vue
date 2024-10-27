@@ -11,7 +11,7 @@
     
         <h4 class="text-gray-600 font-medium text-xs">Done in 2 weeks, April 2023</h4>
         <div class="flex flex-wrap mt-5 gap-2 items-center">
-        <img class="w-auto h-auto" src="@/assets\GameAssets\DualDye/01_TitleCard.png">
+        <img class="w-auto h-auto" src="../assets\GameAssets\DualDye/01_TitleCard.png">
     
     
         </div>
@@ -34,8 +34,8 @@
     
     <div class="flex justify-center">
     
-        <img class="w-auto h-40" src="@/assets\GameAssets\DualDye/03_Gameplay.png">
-        <img class="w-auto h-40" src="@/assets\GameAssets\DualDye/04_Gameplay.png">
+        <img class="w-auto h-40" src="../assets\GameAssets\DualDye/03_Gameplay.png">
+        <img class="w-auto h-40" src="../assets\GameAssets\DualDye/04_Gameplay.png">
     
     
     </div>

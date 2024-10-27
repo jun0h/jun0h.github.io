@@ -1,0 +1,43 @@
+const interopDefault = r => r.default || r || [];
+const styles = {
+  "node_modules/nuxt/dist/app/entry.js": () => import('./entry-styles.DMLm43UE.mjs').then(interopDefault),
+  "app.vue": () => import('./app-styles.B6ixehAK.mjs').then(interopDefault),
+  "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": () => import('./error-404-styles.BuFEi3h_.mjs').then(interopDefault),
+  "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": () => import('./error-500-styles.CU3Y-oSM.mjs').then(interopDefault),
+  "templates/Window.vue": () => import('./Window-styles.RFMOGrmp.mjs').then(interopDefault),
+  "templates/Navbar.vue": () => import('./Navbar-styles.HoZI87nD.mjs').then(interopDefault),
+  "templates/Mail.vue": () => import('./Mail-styles.DK0t783F.mjs').then(interopDefault),
+  "templates/FileWindow.vue": () => import('./FileWindow-styles.C9brtu45.mjs').then(interopDefault),
+  "views/Resume.vue": () => import('./Resume-styles.CgrR2wRN.mjs').then(interopDefault),
+  "views/Nossaflex.vue": () => import('./Nossaflex-styles.BQQIo-Xi.mjs').then(interopDefault),
+  "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=73a07988&lang.css": () => import('./error-404-styles.BuFEi3h_.mjs').then(interopDefault),
+  "views/Projects/StrayNight.vue": () => import('./StrayNight-styles.B9oV4aN7.mjs').then(interopDefault),
+  "views/GodotContainer.vue": () => import('./GodotContainer-styles.eyMlmWU4.mjs').then(interopDefault),
+  "views/Projects/Dual.vue": () => import('./Dual-styles.BltjqZvO.mjs').then(interopDefault),
+  "views/Projects/Rewind.vue": () => import('./Rewind-styles.C2SbWMUY.mjs').then(interopDefault),
+  "views/UnityContainer.vue": () => import('./UnityContainer-styles.CY4C4Wx0.mjs').then(interopDefault),
+  "views/Projects/Rush.vue": () => import('./Rush-styles.J015Njn_.mjs').then(interopDefault),
+  "templates/ImagePreviewWindow.vue": () => import('./ImagePreviewWindow-styles.Da0f_Xdb.mjs').then(interopDefault),
+  "templates/StartMenu.vue": () => import('./StartMenu-styles.CxiRd_hi.mjs').then(interopDefault),
+  "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=6fdef64d&lang.css": () => import('./error-500-styles.CU3Y-oSM.mjs').then(interopDefault),
+  "views/Projects/Vampy.vue": () => import('./Vampy-styles.B-wSkfJA.mjs').then(interopDefault),
+  "views/Nossaflex.vue?vue&type=style&index=0&scoped=40d69dc4&lang.css": () => import('./Nossaflex-styles.BQQIo-Xi.mjs').then(interopDefault),
+  "views/Projects/StrayNight.vue?vue&type=style&index=0&scoped=8a4e024d&lang.css": () => import('./StrayNight-styles.B9oV4aN7.mjs').then(interopDefault),
+  "views/Resume.vue?vue&type=style&index=0&scoped=c0616bd2&lang.css": () => import('./Resume-styles.CgrR2wRN.mjs').then(interopDefault),
+  "views/Projects/Dual.vue?vue&type=style&index=0&scoped=28323d7a&lang.css": () => import('./Dual-styles.BltjqZvO.mjs').then(interopDefault),
+  "views/Projects/Rewind.vue?vue&type=style&index=0&scoped=e21d265a&lang.css": () => import('./Rewind-styles.C2SbWMUY.mjs').then(interopDefault),
+  "views/Projects/Rush.vue?vue&type=style&index=0&scoped=b4b94c11&lang.css": () => import('./Rush-styles.J015Njn_.mjs').then(interopDefault),
+  "templates/StartMenu.vue?vue&type=style&index=0&scoped=be6b358e&lang.css": () => import('./StartMenu-styles.CxiRd_hi.mjs').then(interopDefault),
+  "views/Projects/Vampy.vue?vue&type=style&index=0&scoped=0118d577&lang.css": () => import('./Vampy-styles.B-wSkfJA.mjs').then(interopDefault),
+  "templates/Navbar.vue?vue&type=style&index=0&scoped=3145d0f9&lang.css": () => import('./Navbar-styles.HoZI87nD.mjs').then(interopDefault),
+  "templates/Window.vue?vue&type=style&index=0&scoped=3eda687d&lang.css": () => import('./Window-styles.RFMOGrmp.mjs').then(interopDefault),
+  "templates/FileWindow.vue?vue&type=style&index=0&scoped=598ba05b&lang.css": () => import('./FileWindow-styles.C9brtu45.mjs').then(interopDefault),
+  "templates/Mail.vue?vue&type=style&index=0&scoped=c3bd3f76&lang.css": () => import('./Mail-styles.DK0t783F.mjs').then(interopDefault),
+  "views/UnityContainer.vue?vue&type=style&index=0&lang.css": () => import('./UnityContainer-styles.CY4C4Wx0.mjs').then(interopDefault),
+  "templates/ImagePreviewWindow.vue?vue&type=style&index=0&scoped=c4b84f44&lang.css": () => import('./ImagePreviewWindow-styles.Da0f_Xdb.mjs').then(interopDefault),
+  "views/GodotContainer.vue?vue&type=style&index=0&lang.css": () => import('./GodotContainer-styles.eyMlmWU4.mjs').then(interopDefault),
+  "app.vue?vue&type=style&index=0&lang.css": () => import('./app-styles.B6ixehAK.mjs').then(interopDefault)
+};
+
+export { styles as default };
+//# sourceMappingURL=styles.mjs.map

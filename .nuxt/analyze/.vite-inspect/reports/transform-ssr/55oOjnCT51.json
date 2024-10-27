@@ -1,0 +1,294 @@
+{
+  "resolvedId": "C:/Users/dosor/Desktop/win95/views/Projects/Rewind.vue?vue&type=style&index=0&scoped=e21d265a&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n    \r\n    \r\n    .image-container {\r\n        display: flex;\r\n        gap: 10px; /* espace entre les images */\r\n    }\r\n    ",
+      "start": 1730054951308,
+      "end": 1730054951308,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/dosor/Desktop/win95/views/Projects/Rewind.vue"
+        ],
+        "names": [],
+        "mappings": ";;;IAkDI,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;QACb,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;QACb,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC;IAC3C",
+        "file": "C:/Users/dosor/Desktop/win95/views/Projects/Rewind.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n    <div>\r\n    \r\n    <!-- Titre -->\r\n        <h1>Rewind Robot</h1>\r\n        <h4 class=\"text-gray-600 font-medium text-xs\" style=\"padding-bottom: 10px; display: flex; gap: 5px;\">\r\n    <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Godot\" src=\"https://img.shields.io/badge/Made%20with-Godot-478CBF?style=flat&logo=godot%20engine&logoColor=white\" />\r\n    <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"C#\" src=\"https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white\" />\r\n</h4>\r\n    \r\n        <h4 class=\"text-gray-600 font-medium text-xs\">Done from January to March 2023</h4>\r\n        <div class=\"flex flex-wrap mt-5 gap-2 items-center\">\r\n        <img class=\"w-auto h-auto\" src=\"../assets\\GameAssets\\rewind\\01_TitleCard.png\">\r\n    \r\n    \r\n        </div>\r\n        <div class=\"pt-7\">\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                My second student project, this one was done in team of 4 programmers!\r\n            </p>\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                This game is a Sokoban, a puzzle game genre from Japan! We redesigned the game adding a special feature, which is the rewind. Basically you can rewind the whole level and a copy of yourself is going to repeat you past actions!            </p>\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                This project was very fun to do since the work was split, making easier for each one to focus on their chores.\r\n    \r\n        </p>\r\n        <p class=\"font-thin text-sm pb-2.5\">\r\n            As for me I did some the core gameplay of the player, so it's basics movements and collisions, the sound manager and then I focused on level design.    \r\n        </p>\r\n    \r\n        </div>\r\n        <div class=\"flex justify-center\">\r\n    \r\n            <iframe frameborder=\"0\" src=\"https://itch.io/embed/1977050\" width=\"552\" height=\"167\"><a href=\"https://jun0h.itch.io/rewind-robot\">Rewind Robot by Dany</a></iframe></div>\r\n    \r\n    <div class=\"flex justify-center\">\r\n    \r\n        <img class=\"w-auto h-40\" src=\"@/assets\\GameAssets\\rewind\\04_Level.png\">\r\n        <img class=\"w-auto h-40\" src=\"@/assets\\GameAssets\\rewind\\06_LevelRewind.png\">\r\n    \r\n    \r\n    </div>\r\n    \r\n    \r\n    </div>\r\n    </template>\r\n    \r\n    <style scoped>\r\n    \r\n    \r\n    .image-container {\r\n        display: flex;\r\n        gap: 10px; /* espace entre les images */\r\n    }\r\n    </style>\r\n    "
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1730054951309,
+      "end": 1730054951309,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1730054951309,
+      "end": 1730054951309,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1730054951311,
+      "end": 1730054951311,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1730054951311,
+      "end": 1730054951311,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1730054951311,
+      "end": 1730054951311,
+      "order": "pre"
+    },
+    {
+      "name": "server-only-component-transform",
+      "start": 1730054951311,
+      "end": 1730054951311,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".image-container{display:flex;gap:10px}",
+      "start": 1730054951311,
+      "end": 1730054951315,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/dosor/Desktop/win95/views/Projects/Rewind.vue",
+        "mappings": "AAGI,iBACI,YAAa,CACb,QACJ",
+        "names": [],
+        "sources": [
+          "C:/Users/dosor/Desktop/win95/views/Projects/Rewind.vue"
+        ],
+        "sourcesContent": [
+          "\r\n    \r\n    \r\n    .image-container {\r\n        display: flex;\r\n        gap: 10px; /* espace entre les images */\r\n    }\r\n    "
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1730054951315,
+      "end": 1730054951315,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1730054951315,
+      "end": 1730054951315,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1730054951315,
+      "end": 1730054951315,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".image-container[data-v-e21d265a]{display:flex;gap:10px}",
+      "start": 1730054951315,
+      "end": 1730054951315,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/dosor/Desktop/win95/views/Projects/Rewind.vue",
+        "mappings": "AAAA,kCAAiB,YAAY,CAAC,QAAQ",
+        "names": [],
+        "sources": [
+          "C:/Users/dosor/Desktop/win95/views/Projects/Rewind.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1730054951315,
+      "end": 1730054951315,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951315,
+      "end": 1730054951315,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951315,
+      "end": 1730054951315,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1730054951315,
+      "end": 1730054951315,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1730054951315,
+      "end": 1730054951315,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1730054951316,
+      "end": 1730054951316,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951316,
+      "end": 1730054951316,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1730054951316,
+      "end": 1730054951317,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1730054951317,
+      "end": 1730054951317,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "",
+      "start": 1730054951317,
+      "end": 1730054951317,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1730054951317,
+      "end": 1730054951317,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1730054951317,
+      "end": 1730054951317,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1730054951317,
+      "end": 1730054951317,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1730054951317,
+      "end": 1730054951318,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1730054951318,
+      "end": 1730054951318,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1730054951318,
+      "end": 1730054951318,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1730054951318,
+      "end": 1730054951318,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1730054951318,
+      "end": 1730054951318,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1730054951318,
+      "end": 1730054951318,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1730054951318,
+      "end": 1730054951318,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1730054951318,
+      "end": 1730054951318,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1730054951318,
+      "end": 1730054951318,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1730054951318,
+      "end": 1730054951318,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1730054951318,
+      "end": 1730054951318,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1730054951318,
+      "end": 1730054951318,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1730054951318,
+      "end": 1730054951318,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1730054951318,
+      "end": 1730054951318,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1730054951318,
+      "end": 1730054951318,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1730054951318,
+      "end": 1730054951318,
+      "order": "normal"
+    }
+  ]
+}

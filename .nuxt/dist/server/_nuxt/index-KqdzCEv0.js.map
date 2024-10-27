@@ -1,0 +1,1 @@
+{"version":3,"file":"index-KqdzCEv0.js","sources":["../../../../pages/index.vue"],"sourcesContent":["<script setup lang=\"ts\">\r\nconst route = useRoute()\r\n</script>\r\n\r\n<template>\r\n</template>\r\n"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;AACc,aAAS;;;;;;;;;;;"}

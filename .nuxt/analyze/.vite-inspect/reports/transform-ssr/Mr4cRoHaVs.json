@@ -1,0 +1,264 @@
+{
+  "resolvedId": "C:/Users/dosor/Desktop/win95/views/Nossaflex.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n<div>\r\n    <img src=\"@/assets/Nossaflex/hero_light.webp\" alt=\"NOSSAFLEX logo\" class=\"hero\" />\r\n    <div class=\"inner-content\">\r\n        <h3 class=\"heading\"><b>Phase One: The Beginning</b></h3>\r\n        <p class=\"paragraph\">\r\n            NOSSAFLEX began as two separate entities initially—an idea that simmered in my mind as an EXIF data logger app for the Apple Watch. Sketches of the original app exist in images, created using Apple's Storyboarding system. Initially, it didn't make much sense to me, but when I uploaded it onto online platforms like Reddit, the concept took off and became an instant hit.\r\n        </p>\r\n    </div>\r\n    <img src=\"@/assets/Nossaflex/watch.webp\" class=\"images\" />\r\n    <h6 class=\"subtitle\">Initial Idea</h6>\r\n    <div class=\"inner-content\">\r\n        <h3 class=\"heading\"><b>Phase Two: LUCE</b></h3>\r\n        <p class=\"paragraph\">\r\n            Within my Reddit post, I included a request for assistance. Having just learned how to create storyboards in Swift, I was honestly afraid of disappointing my newfound audience. I asked anyone with experience in Swift to step forward and offer their help. By a stroke of luck, I encountered Diego. Diego, a skilled Lead Engineer with years of experience in iOS development, was more than willing to assist with the development.\r\n        </p>\r\n        <p class=\"paragraph\">\r\n            I was relieved to have found assistance for the app, especially when I discovered that an editor from The Phoblographer had contacted me regarding the Reddit post. Fortunately, Diego came to my aid and swiftly mocked up some ideas for the app (pun intended). You can find The Phoblographer article\r\n            <a class=\"underline text-blue-700\" href=\"https://www.thephoblographer.com/2020/03/09/luce-an-app-that-could-help-analog-photographers-log-exif-data/\">here</a>. Pretty neat eh?\r\n        </p>\r\n    </div>\r\n    <img src=\"@/assets/Nossaflex/luce.webp\" class=\"images-full\" />\r\n    <h6 class=\"subtitle\">LUCE</h6>\r\n    <div class=\"inner-content\">\r\n        <h3 class=\"heading\"><b>Phase Three: Merger</b></h3>\r\n        <p class=\"paragraph\">\r\n            Development was underway, but in April, a fan reached out to us about another app out there that seemed quite similar to ours—NOSSAFLEX. This piqued our interest, prompting us to swiftly establish contact. It turned out that our ideas were strikingly similar. Enter Josh, the mastermind behind NOSSAFLEX—a naming system that assigned meaning to a slew of otherwise meaningless EXIF strings. In this system, NO stood for shot number, SS for shutter speed, A for aperture, FL for focal length, and EX for exposure.\r\n        </p>\r\n        <p class=\"paragraph\">\r\n            We enthusiastically embraced Josh's concept and delved into discussions about the app's layout. Eventually, we settled on using SwiftUI with Firebase as its database. Josh wasted no time in sketching up some mockups, and we dove right into the development process.\r\n        </p>\r\n    </div>\r\n    <div class=\"inner-content\">\r\n        <h3 class=\"heading\"><b>Phase Four: Neumorphism</b></h3>\r\n        <p class=\"paragraph\">\r\n            The initial version of the app embraced a UI trend called neumorphism, which emerged as a revival of skeuomorphism, advocated by users on dribbble.com. Skeuomorphism, reminiscent of the pre-iOS 9 era, featured designs that mimicked real-world objects, such as book apps resembling shelves, calculators mirroring their physical counterparts, and notepads replicating actual notepads.\r\n        </p>\r\n        <p class=\"paragraph\">\r\n            Neumorphism, on the other hand, reimagined skeuomorphism with a modern twist, incorporating soft shadows, muted whites, and buttons with inner shadows, evoking the sensation of pressing a rubber button. While initially appealing, this design trend eventually became a glaring eyesore and posed accessibility challenges. The excessive shadows detracted from usability over time.\r\n        </p>\r\n        <p class=\"paragraph\">\r\n            Fortunately, during the beta phase, we swiftly abandoned this design approach in favor of a simpler and more user-friendly interface.\r\n        </p>\r\n    </div>\r\n    <img src=\"@/assets/Nossaflex/neumorphism.webp\" class=\"images-full\" />\r\n    <h6 class=\"subtitle\">Why neumorphism is a bad idea</h6>\r\n    <div class=\"inner-content\">\r\n        <h3 class=\"heading\"><b>Phase Five: Sketchbook</b></h3>\r\n        <p class=\"paragraph\">\r\n            We then opted for a much friendlier design reminiscent of a notebook. Featuring grid paper and highlighted text, along with a warm yellow tint to evoke a sketchbook feel, the app exuded a welcoming atmosphere. Recognizing the need for a makeover, I sprang into action, swiftly converting all old components into the cleaner and sleeker design. Josh contributed further by creating Lottie animations that played whenever users booted up the app, while meticulously drawing out patents of various camera equipment and accessories.\r\n        </p>\r\n        <p class=\"paragraph\">\r\n            Meanwhile, Diego worked tirelessly to ensure the timely release of our much-anticipated feature, the light meter. By the end of December, the app was finally completed, with the final rounds of beta testing coming to a close.\r\n        </p>\r\n    </div>\r\n    <img src=\"@/assets/Nossaflex/notebook.webp\" class=\"images-full\" />\r\n    <h6 class=\"subtitle\">Sketchbook Design</h6>\r\n    <div class=\"inner-content\">\r\n        <h3 class=\"heading\"><b>Phase Six: App Store Launch</b></h3>\r\n        <p class=\"paragraph\">\r\n            The app was officially launched on February 5th, 2021, after more than a year of development. It immediately captivated the community, receiving widespread support from Reddit, YouTube, and Facebook forums alike. Users from across the globe eagerly signed up for the app, resulting in over a thousand users within the first week alone. Thousands of pieces of data were logged daily by users, and we were delighted to witness consistent daily usage of our app.\r\n        </p>\r\n    </div>\r\n    <img src=\"@/assets/Nossaflex/appstore.webp\" class=\"images-full\" />\r\n    <h6 class=\"subtitle\">We're live!</h6>\r\n    <div class=\"inner-content\">\r\n        <h3 class=\"heading\"><b>Phase Seven: Apple WWDC and Apple's Design Evangelist</b></h3>\r\n        <p class=\"paragraph\">\r\n            With our app finally launched, it was a well-received hit by the community. However, we were far from satisfied with the product. In an attempt to improve the app, we reached out to Apple's Design Evangelist, who provided us with valuable feedback. We quickly came to realize that our app's sketchbook style UI with custom navigation and components was not in line with Apple's design guidelines.\r\n        </p>\r\n        <p class=\"paragraph\">\r\n            We were advised to adhere to Apple's Human Interface Guidelines, which would ensure that our app was more user-friendly and accessible. We were also encouraged to adopt a more conventional design approach, which would make our app more intuitive and easier to use.\r\n        </p>\r\n        <p class=\"paragraph\">\r\n            Josh got to work immediately, redesigning the app to align with Apple's guidelines. The new design featured a more conventional layout, with standard navigation and components that were consistent with Apple's design language. The app was also updated to include new features and improvements, making it more user-friendly and accessible.\r\n        </p>\r\n    </div>\r\n    <img src=\"@/assets/Nossaflex/nossaflex_screenshot_1.webp\" class=\"images-full\" />\r\n    <h6 class=\"subtitle\">V3 of NOSSAFLEX</h6>\r\n    <div class=\"inner-content\">\r\n        <h3 class=\"heading\"><b>Phase Eight: Apple Entrepreneur Camp</b></h3>\r\n        <p class=\"paragraph\">\r\n            Our third version was released in September 2023, and we were invited to participate in Apple's Entrepreneur Camp. The camp was a fantastic opportunity for us to learn from Apple's experts and receive valuable feedback on our app. We were able to connect with other entrepreneurs and developers, share our experiences, and gain insights into the latest trends in app development.\r\n        </p>\r\n        <p class=\"paragraph\">\r\n            The camp was a great success, and we returned home with a wealth of knowledge and new ideas for our app. We continued to work on NOSSAFLEX, incorporating the feedback we received and making improvements to the app. We were excited to see how our app would evolve and grow in the future.\r\n        </p>\r\n    </div>\r\n    <img src=\"@/assets/Nossaflex/apple_camp.webp\" class=\"images-full\" />\r\n    <h6 class=\"subtitle\">NOSSAFLEX at Apple Entrepreneur Camp</h6>\r\n    <div class=\"inner-content\">\r\n        <h3 class=\"heading\"><b>Phase Nine: Shortlisted for Apple Design Awards and Beyond</b></h3>\r\n        <p class=\"paragraph\">\r\n            NOSSAFLEX was recognized by Apple's South Asia DR team and was shortlisted to be considered for Apple's Design Awards in 2024. We were thrilled to be recognized by Apple and were excited to see how our app would be received by the wider community. We continued to work on NOSSAFLEX, incorporating new features and improvements to make the app even better.\r\n        </p>\r\n    </div>\r\n    <br />\r\n    <a href=\"https://www.nossaflex.io\" style=\"color: #ff5733\">NOSSAFLEX</a>\r\n</div>\r\n</template>\r\n\r\n  \r\n  \r\n<style scoped>\r\n.hero {\r\n    width: 100%;\r\n    background-position: center center;\r\n    background-size: 100%;\r\n    background-repeat: no-repeat;\r\n    border: 1px solid rgb(0, 0, 0, 0.1);\r\n}\r\n\r\n.images {\r\n    width: 100%;\r\n    height: 350px;\r\n    object-fit: cover;\r\n}\r\n\r\n.images-full {\r\n    width: 100%;\r\n    height: auto;\r\n    object-fit: cover;\r\n}\r\n\r\n.subtitle {\r\n    font-size: 12px;\r\n    color: gray;\r\n    text-align: center;\r\n}\r\n\r\n.heading {\r\n    padding-bottom: 5px;\r\n}\r\n\r\n.inner-content {\r\n    padding-top: 30px;\r\n    padding-bottom: 30px;\r\n}\r\n\r\nh6,\r\nh3 {\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n</style>\r\n",
+      "start": 1730054950962,
+      "end": 1730054951157,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1730054951157,
+      "end": 1730054951157,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1730054951157,
+      "end": 1730054951157,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1730054951157,
+      "end": 1730054951157,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1730054951157,
+      "end": 1730054951157,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1730054951157,
+      "end": 1730054951157,
+      "order": "pre"
+    },
+    {
+      "name": "server-only-component-transform",
+      "start": 1730054951157,
+      "end": 1730054951157,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1730054951157,
+      "end": 1730054951157,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1730054951157,
+      "end": 1730054951157,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1730054951157,
+      "end": 1730054951157,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1730054951157,
+      "end": 1730054951157,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '@/assets/Nossaflex/hero_light.webp'\nimport _imports_1 from '@/assets/Nossaflex/watch.webp'\nimport _imports_2 from '@/assets/Nossaflex/luce.webp'\nimport _imports_3 from '@/assets/Nossaflex/neumorphism.webp'\nimport _imports_4 from '@/assets/Nossaflex/notebook.webp'\nimport _imports_5 from '@/assets/Nossaflex/appstore.webp'\nimport _imports_6 from '@/assets/Nossaflex/nossaflex_screenshot_1.webp'\nimport _imports_7 from '@/assets/Nossaflex/apple_camp.webp'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  _push(`<div${\n    _ssrRenderAttrs(_attrs)\n  } data-v-40d69dc4><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"NOSSAFLEX logo\" class=\"hero\" data-v-40d69dc4><div class=\"inner-content\" data-v-40d69dc4><h3 class=\"heading\" data-v-40d69dc4><b data-v-40d69dc4>Phase One: The Beginning</b></h3><p class=\"paragraph\" data-v-40d69dc4> NOSSAFLEX began as two separate entities initially—an idea that simmered in my mind as an EXIF data logger app for the Apple Watch. Sketches of the original app exist in images, created using Apple&#39;s Storyboarding system. Initially, it didn&#39;t make much sense to me, but when I uploaded it onto online platforms like Reddit, the concept took off and became an instant hit. </p></div><img${\n    _ssrRenderAttr(\"src\", _imports_1)\n  } class=\"images\" data-v-40d69dc4><h6 class=\"subtitle\" data-v-40d69dc4>Initial Idea</h6><div class=\"inner-content\" data-v-40d69dc4><h3 class=\"heading\" data-v-40d69dc4><b data-v-40d69dc4>Phase Two: LUCE</b></h3><p class=\"paragraph\" data-v-40d69dc4> Within my Reddit post, I included a request for assistance. Having just learned how to create storyboards in Swift, I was honestly afraid of disappointing my newfound audience. I asked anyone with experience in Swift to step forward and offer their help. By a stroke of luck, I encountered Diego. Diego, a skilled Lead Engineer with years of experience in iOS development, was more than willing to assist with the development. </p><p class=\"paragraph\" data-v-40d69dc4> I was relieved to have found assistance for the app, especially when I discovered that an editor from The Phoblographer had contacted me regarding the Reddit post. Fortunately, Diego came to my aid and swiftly mocked up some ideas for the app (pun intended). You can find The Phoblographer article <a class=\"underline text-blue-700\" href=\"https://www.thephoblographer.com/2020/03/09/luce-an-app-that-could-help-analog-photographers-log-exif-data/\" data-v-40d69dc4>here</a>. Pretty neat eh? </p></div><img${\n    _ssrRenderAttr(\"src\", _imports_2)\n  } class=\"images-full\" data-v-40d69dc4><h6 class=\"subtitle\" data-v-40d69dc4>LUCE</h6><div class=\"inner-content\" data-v-40d69dc4><h3 class=\"heading\" data-v-40d69dc4><b data-v-40d69dc4>Phase Three: Merger</b></h3><p class=\"paragraph\" data-v-40d69dc4> Development was underway, but in April, a fan reached out to us about another app out there that seemed quite similar to ours—NOSSAFLEX. This piqued our interest, prompting us to swiftly establish contact. It turned out that our ideas were strikingly similar. Enter Josh, the mastermind behind NOSSAFLEX—a naming system that assigned meaning to a slew of otherwise meaningless EXIF strings. In this system, NO stood for shot number, SS for shutter speed, A for aperture, FL for focal length, and EX for exposure. </p><p class=\"paragraph\" data-v-40d69dc4> We enthusiastically embraced Josh&#39;s concept and delved into discussions about the app&#39;s layout. Eventually, we settled on using SwiftUI with Firebase as its database. Josh wasted no time in sketching up some mockups, and we dove right into the development process. </p></div><div class=\"inner-content\" data-v-40d69dc4><h3 class=\"heading\" data-v-40d69dc4><b data-v-40d69dc4>Phase Four: Neumorphism</b></h3><p class=\"paragraph\" data-v-40d69dc4> The initial version of the app embraced a UI trend called neumorphism, which emerged as a revival of skeuomorphism, advocated by users on dribbble.com. Skeuomorphism, reminiscent of the pre-iOS 9 era, featured designs that mimicked real-world objects, such as book apps resembling shelves, calculators mirroring their physical counterparts, and notepads replicating actual notepads. </p><p class=\"paragraph\" data-v-40d69dc4> Neumorphism, on the other hand, reimagined skeuomorphism with a modern twist, incorporating soft shadows, muted whites, and buttons with inner shadows, evoking the sensation of pressing a rubber button. While initially appealing, this design trend eventually became a glaring eyesore and posed accessibility challenges. The excessive shadows detracted from usability over time. </p><p class=\"paragraph\" data-v-40d69dc4> Fortunately, during the beta phase, we swiftly abandoned this design approach in favor of a simpler and more user-friendly interface. </p></div><img${\n    _ssrRenderAttr(\"src\", _imports_3)\n  } class=\"images-full\" data-v-40d69dc4><h6 class=\"subtitle\" data-v-40d69dc4>Why neumorphism is a bad idea</h6><div class=\"inner-content\" data-v-40d69dc4><h3 class=\"heading\" data-v-40d69dc4><b data-v-40d69dc4>Phase Five: Sketchbook</b></h3><p class=\"paragraph\" data-v-40d69dc4> We then opted for a much friendlier design reminiscent of a notebook. Featuring grid paper and highlighted text, along with a warm yellow tint to evoke a sketchbook feel, the app exuded a welcoming atmosphere. Recognizing the need for a makeover, I sprang into action, swiftly converting all old components into the cleaner and sleeker design. Josh contributed further by creating Lottie animations that played whenever users booted up the app, while meticulously drawing out patents of various camera equipment and accessories. </p><p class=\"paragraph\" data-v-40d69dc4> Meanwhile, Diego worked tirelessly to ensure the timely release of our much-anticipated feature, the light meter. By the end of December, the app was finally completed, with the final rounds of beta testing coming to a close. </p></div><img${\n    _ssrRenderAttr(\"src\", _imports_4)\n  } class=\"images-full\" data-v-40d69dc4><h6 class=\"subtitle\" data-v-40d69dc4>Sketchbook Design</h6><div class=\"inner-content\" data-v-40d69dc4><h3 class=\"heading\" data-v-40d69dc4><b data-v-40d69dc4>Phase Six: App Store Launch</b></h3><p class=\"paragraph\" data-v-40d69dc4> The app was officially launched on February 5th, 2021, after more than a year of development. It immediately captivated the community, receiving widespread support from Reddit, YouTube, and Facebook forums alike. Users from across the globe eagerly signed up for the app, resulting in over a thousand users within the first week alone. Thousands of pieces of data were logged daily by users, and we were delighted to witness consistent daily usage of our app. </p></div><img${\n    _ssrRenderAttr(\"src\", _imports_5)\n  } class=\"images-full\" data-v-40d69dc4><h6 class=\"subtitle\" data-v-40d69dc4>We&#39;re live!</h6><div class=\"inner-content\" data-v-40d69dc4><h3 class=\"heading\" data-v-40d69dc4><b data-v-40d69dc4>Phase Seven: Apple WWDC and Apple&#39;s Design Evangelist</b></h3><p class=\"paragraph\" data-v-40d69dc4> With our app finally launched, it was a well-received hit by the community. However, we were far from satisfied with the product. In an attempt to improve the app, we reached out to Apple&#39;s Design Evangelist, who provided us with valuable feedback. We quickly came to realize that our app&#39;s sketchbook style UI with custom navigation and components was not in line with Apple&#39;s design guidelines. </p><p class=\"paragraph\" data-v-40d69dc4> We were advised to adhere to Apple&#39;s Human Interface Guidelines, which would ensure that our app was more user-friendly and accessible. We were also encouraged to adopt a more conventional design approach, which would make our app more intuitive and easier to use. </p><p class=\"paragraph\" data-v-40d69dc4> Josh got to work immediately, redesigning the app to align with Apple&#39;s guidelines. The new design featured a more conventional layout, with standard navigation and components that were consistent with Apple&#39;s design language. The app was also updated to include new features and improvements, making it more user-friendly and accessible. </p></div><img${\n    _ssrRenderAttr(\"src\", _imports_6)\n  } class=\"images-full\" data-v-40d69dc4><h6 class=\"subtitle\" data-v-40d69dc4>V3 of NOSSAFLEX</h6><div class=\"inner-content\" data-v-40d69dc4><h3 class=\"heading\" data-v-40d69dc4><b data-v-40d69dc4>Phase Eight: Apple Entrepreneur Camp</b></h3><p class=\"paragraph\" data-v-40d69dc4> Our third version was released in September 2023, and we were invited to participate in Apple&#39;s Entrepreneur Camp. The camp was a fantastic opportunity for us to learn from Apple&#39;s experts and receive valuable feedback on our app. We were able to connect with other entrepreneurs and developers, share our experiences, and gain insights into the latest trends in app development. </p><p class=\"paragraph\" data-v-40d69dc4> The camp was a great success, and we returned home with a wealth of knowledge and new ideas for our app. We continued to work on NOSSAFLEX, incorporating the feedback we received and making improvements to the app. We were excited to see how our app would evolve and grow in the future. </p></div><img${\n    _ssrRenderAttr(\"src\", _imports_7)\n  } class=\"images-full\" data-v-40d69dc4><h6 class=\"subtitle\" data-v-40d69dc4>NOSSAFLEX at Apple Entrepreneur Camp</h6><div class=\"inner-content\" data-v-40d69dc4><h3 class=\"heading\" data-v-40d69dc4><b data-v-40d69dc4>Phase Nine: Shortlisted for Apple Design Awards and Beyond</b></h3><p class=\"paragraph\" data-v-40d69dc4> NOSSAFLEX was recognized by Apple&#39;s South Asia DR team and was shortlisted to be considered for Apple&#39;s Design Awards in 2024. We were thrilled to be recognized by Apple and were excited to see how our app would be received by the wider community. We continued to work on NOSSAFLEX, incorporating new features and improvements to make the app even better. </p></div><br data-v-40d69dc4><a href=\"https://www.nossaflex.io\" style=\"${\n    _ssrRenderStyle({\"color\":\"#ff5733\"})\n  }\" data-v-40d69dc4>NOSSAFLEX</a></div>`)\n}\n\nimport \"C:/Users/dosor/Desktop/win95/views/Nossaflex.vue?vue&type=style&index=0&scoped=40d69dc4&lang.css\"\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"views/Nossaflex.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',\"data-v-40d69dc4\"]])",
+      "start": 1730054951157,
+      "end": 1730054951160,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/dosor/Desktop/win95/views/Nossaflex.vue"
+        ],
+        "names": [],
+        "mappings": ";OAES,UAAwC;OAOxC,UAAmC;OAYnC,UAAkC;OAuBlC,UAAyC;OAWzC,UAAsC;OAQtC,UAAsC;OActC,UAAoD;OAWpD,UAAwC;;;;EAxFjD;IAAA,gBAAA;;IAAA,eAES,KAAwC,EAAxC,UAAwC;;IAFjD,eASS,KAAmC,EAAnC,UAAmC;;IAT5C,eAqBS,KAAkC,EAAlC,UAAkC;;IArB3C,eA4CS,KAAyC,EAAzC,UAAyC;;IA5ClD,eAuDS,KAAsC,EAAtC,UAAsC;;IAvD/C,eA+DS,KAAsC,EAAtC,UAAsC;;IA/D/C,eA6ES,KAAoD,EAApD,UAAoD;;IA7E7D,eAwFS,KAAwC,EAAxC,UAAwC;;IAxFjD,gBAiGuC,mBAAsB",
+        "sourcesContent": [
+          "<template>\r\n<div>\r\n    <img src=\"@/assets/Nossaflex/hero_light.webp\" alt=\"NOSSAFLEX logo\" class=\"hero\" />\r\n    <div class=\"inner-content\">\r\n        <h3 class=\"heading\"><b>Phase One: The Beginning</b></h3>\r\n        <p class=\"paragraph\">\r\n            NOSSAFLEX began as two separate entities initially—an idea that simmered in my mind as an EXIF data logger app for the Apple Watch. Sketches of the original app exist in images, created using Apple's Storyboarding system. Initially, it didn't make much sense to me, but when I uploaded it onto online platforms like Reddit, the concept took off and became an instant hit.\r\n        </p>\r\n    </div>\r\n    <img src=\"@/assets/Nossaflex/watch.webp\" class=\"images\" />\r\n    <h6 class=\"subtitle\">Initial Idea</h6>\r\n    <div class=\"inner-content\">\r\n        <h3 class=\"heading\"><b>Phase Two: LUCE</b></h3>\r\n        <p class=\"paragraph\">\r\n            Within my Reddit post, I included a request for assistance. Having just learned how to create storyboards in Swift, I was honestly afraid of disappointing my newfound audience. I asked anyone with experience in Swift to step forward and offer their help. By a stroke of luck, I encountered Diego. Diego, a skilled Lead Engineer with years of experience in iOS development, was more than willing to assist with the development.\r\n        </p>\r\n        <p class=\"paragraph\">\r\n            I was relieved to have found assistance for the app, especially when I discovered that an editor from The Phoblographer had contacted me regarding the Reddit post. Fortunately, Diego came to my aid and swiftly mocked up some ideas for the app (pun intended). You can find The Phoblographer article\r\n            <a class=\"underline text-blue-700\" href=\"https://www.thephoblographer.com/2020/03/09/luce-an-app-that-could-help-analog-photographers-log-exif-data/\">here</a>. Pretty neat eh?\r\n        </p>\r\n    </div>\r\n    <img src=\"@/assets/Nossaflex/luce.webp\" class=\"images-full\" />\r\n    <h6 class=\"subtitle\">LUCE</h6>\r\n    <div class=\"inner-content\">\r\n        <h3 class=\"heading\"><b>Phase Three: Merger</b></h3>\r\n        <p class=\"paragraph\">\r\n            Development was underway, but in April, a fan reached out to us about another app out there that seemed quite similar to ours—NOSSAFLEX. This piqued our interest, prompting us to swiftly establish contact. It turned out that our ideas were strikingly similar. Enter Josh, the mastermind behind NOSSAFLEX—a naming system that assigned meaning to a slew of otherwise meaningless EXIF strings. In this system, NO stood for shot number, SS for shutter speed, A for aperture, FL for focal length, and EX for exposure.\r\n        </p>\r\n        <p class=\"paragraph\">\r\n            We enthusiastically embraced Josh's concept and delved into discussions about the app's layout. Eventually, we settled on using SwiftUI with Firebase as its database. Josh wasted no time in sketching up some mockups, and we dove right into the development process.\r\n        </p>\r\n    </div>\r\n    <div class=\"inner-content\">\r\n        <h3 class=\"heading\"><b>Phase Four: Neumorphism</b></h3>\r\n        <p class=\"paragraph\">\r\n            The initial version of the app embraced a UI trend called neumorphism, which emerged as a revival of skeuomorphism, advocated by users on dribbble.com. Skeuomorphism, reminiscent of the pre-iOS 9 era, featured designs that mimicked real-world objects, such as book apps resembling shelves, calculators mirroring their physical counterparts, and notepads replicating actual notepads.\r\n        </p>\r\n        <p class=\"paragraph\">\r\n            Neumorphism, on the other hand, reimagined skeuomorphism with a modern twist, incorporating soft shadows, muted whites, and buttons with inner shadows, evoking the sensation of pressing a rubber button. While initially appealing, this design trend eventually became a glaring eyesore and posed accessibility challenges. The excessive shadows detracted from usability over time.\r\n        </p>\r\n        <p class=\"paragraph\">\r\n            Fortunately, during the beta phase, we swiftly abandoned this design approach in favor of a simpler and more user-friendly interface.\r\n        </p>\r\n    </div>\r\n    <img src=\"@/assets/Nossaflex/neumorphism.webp\" class=\"images-full\" />\r\n    <h6 class=\"subtitle\">Why neumorphism is a bad idea</h6>\r\n    <div class=\"inner-content\">\r\n        <h3 class=\"heading\"><b>Phase Five: Sketchbook</b></h3>\r\n        <p class=\"paragraph\">\r\n            We then opted for a much friendlier design reminiscent of a notebook. Featuring grid paper and highlighted text, along with a warm yellow tint to evoke a sketchbook feel, the app exuded a welcoming atmosphere. Recognizing the need for a makeover, I sprang into action, swiftly converting all old components into the cleaner and sleeker design. Josh contributed further by creating Lottie animations that played whenever users booted up the app, while meticulously drawing out patents of various camera equipment and accessories.\r\n        </p>\r\n        <p class=\"paragraph\">\r\n            Meanwhile, Diego worked tirelessly to ensure the timely release of our much-anticipated feature, the light meter. By the end of December, the app was finally completed, with the final rounds of beta testing coming to a close.\r\n        </p>\r\n    </div>\r\n    <img src=\"@/assets/Nossaflex/notebook.webp\" class=\"images-full\" />\r\n    <h6 class=\"subtitle\">Sketchbook Design</h6>\r\n    <div class=\"inner-content\">\r\n        <h3 class=\"heading\"><b>Phase Six: App Store Launch</b></h3>\r\n        <p class=\"paragraph\">\r\n            The app was officially launched on February 5th, 2021, after more than a year of development. It immediately captivated the community, receiving widespread support from Reddit, YouTube, and Facebook forums alike. Users from across the globe eagerly signed up for the app, resulting in over a thousand users within the first week alone. Thousands of pieces of data were logged daily by users, and we were delighted to witness consistent daily usage of our app.\r\n        </p>\r\n    </div>\r\n    <img src=\"@/assets/Nossaflex/appstore.webp\" class=\"images-full\" />\r\n    <h6 class=\"subtitle\">We're live!</h6>\r\n    <div class=\"inner-content\">\r\n        <h3 class=\"heading\"><b>Phase Seven: Apple WWDC and Apple's Design Evangelist</b></h3>\r\n        <p class=\"paragraph\">\r\n            With our app finally launched, it was a well-received hit by the community. However, we were far from satisfied with the product. In an attempt to improve the app, we reached out to Apple's Design Evangelist, who provided us with valuable feedback. We quickly came to realize that our app's sketchbook style UI with custom navigation and components was not in line with Apple's design guidelines.\r\n        </p>\r\n        <p class=\"paragraph\">\r\n            We were advised to adhere to Apple's Human Interface Guidelines, which would ensure that our app was more user-friendly and accessible. We were also encouraged to adopt a more conventional design approach, which would make our app more intuitive and easier to use.\r\n        </p>\r\n        <p class=\"paragraph\">\r\n            Josh got to work immediately, redesigning the app to align with Apple's guidelines. The new design featured a more conventional layout, with standard navigation and components that were consistent with Apple's design language. The app was also updated to include new features and improvements, making it more user-friendly and accessible.\r\n        </p>\r\n    </div>\r\n    <img src=\"@/assets/Nossaflex/nossaflex_screenshot_1.webp\" class=\"images-full\" />\r\n    <h6 class=\"subtitle\">V3 of NOSSAFLEX</h6>\r\n    <div class=\"inner-content\">\r\n        <h3 class=\"heading\"><b>Phase Eight: Apple Entrepreneur Camp</b></h3>\r\n        <p class=\"paragraph\">\r\n            Our third version was released in September 2023, and we were invited to participate in Apple's Entrepreneur Camp. The camp was a fantastic opportunity for us to learn from Apple's experts and receive valuable feedback on our app. We were able to connect with other entrepreneurs and developers, share our experiences, and gain insights into the latest trends in app development.\r\n        </p>\r\n        <p class=\"paragraph\">\r\n            The camp was a great success, and we returned home with a wealth of knowledge and new ideas for our app. We continued to work on NOSSAFLEX, incorporating the feedback we received and making improvements to the app. We were excited to see how our app would evolve and grow in the future.\r\n        </p>\r\n    </div>\r\n    <img src=\"@/assets/Nossaflex/apple_camp.webp\" class=\"images-full\" />\r\n    <h6 class=\"subtitle\">NOSSAFLEX at Apple Entrepreneur Camp</h6>\r\n    <div class=\"inner-content\">\r\n        <h3 class=\"heading\"><b>Phase Nine: Shortlisted for Apple Design Awards and Beyond</b></h3>\r\n        <p class=\"paragraph\">\r\n            NOSSAFLEX was recognized by Apple's South Asia DR team and was shortlisted to be considered for Apple's Design Awards in 2024. We were thrilled to be recognized by Apple and were excited to see how our app would be received by the wider community. We continued to work on NOSSAFLEX, incorporating new features and improvements to make the app even better.\r\n        </p>\r\n    </div>\r\n    <br />\r\n    <a href=\"https://www.nossaflex.io\" style=\"color: #ff5733\">NOSSAFLEX</a>\r\n</div>\r\n</template>\r\n\r\n  \r\n  \r\n<style scoped>\r\n.hero {\r\n    width: 100%;\r\n    background-position: center center;\r\n    background-size: 100%;\r\n    background-repeat: no-repeat;\r\n    border: 1px solid rgb(0, 0, 0, 0.1);\r\n}\r\n\r\n.images {\r\n    width: 100%;\r\n    height: 350px;\r\n    object-fit: cover;\r\n}\r\n\r\n.images-full {\r\n    width: 100%;\r\n    height: auto;\r\n    object-fit: cover;\r\n}\r\n\r\n.subtitle {\r\n    font-size: 12px;\r\n    color: gray;\r\n    text-align: center;\r\n}\r\n\r\n.heading {\r\n    padding-bottom: 5px;\r\n}\r\n\r\n.inner-content {\r\n    padding-top: 30px;\r\n    padding-bottom: 30px;\r\n}\r\n\r\nh6,\r\nh3 {\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n</style>\r\n"
+        ]
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1730054951160,
+      "end": 1730054951160,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951160,
+      "end": 1730054951160,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951160,
+      "end": 1730054951160,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1730054951160,
+      "end": 1730054951160,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1730054951160,
+      "end": 1730054951161,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1730054951161,
+      "end": 1730054951161,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951161,
+      "end": 1730054951161,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1730054951161,
+      "end": 1730054951163,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1730054951163,
+      "end": 1730054951163,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1730054951163,
+      "end": 1730054951163,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1730054951163,
+      "end": 1730054951163,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1730054951163,
+      "end": 1730054951163,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1730054951163,
+      "end": 1730054951163,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1730054951163,
+      "end": 1730054951163,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1730054951163,
+      "end": 1730054951163,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1730054951163,
+      "end": 1730054951163,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1730054951163,
+      "end": 1730054951163,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1730054951163,
+      "end": 1730054951163,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1730054951163,
+      "end": 1730054951165,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1730054951163,
+      "end": 1730054951165,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1730054951165,
+      "end": 1730054951165,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1730054951165,
+      "end": 1730054951165,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1730054951165,
+      "end": 1730054951165,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1730054951165,
+      "end": 1730054951165,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1730054951165,
+      "end": 1730054951165,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1730054951165,
+      "end": 1730054951165,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1730054951165,
+      "end": 1730054951165,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1730054951165,
+      "end": 1730054951166,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1730054951166,
+      "end": 1730054951166,
+      "order": "normal"
+    }
+  ]
+}

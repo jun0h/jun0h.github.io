@@ -1,0 +1,264 @@
+{
+  "resolvedId": "C:/Users/dosor/Desktop/win95/views/Projects/Dual.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <div>\r\n    \r\n    <!-- Titre -->\r\n        <h1>Dual Dye Dash</h1>\r\n        <h4 class=\"text-gray-600 font-medium text-xs\" style=\"padding-bottom: 10px; display: flex; gap: 5px;\">\r\n    <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Godot\" src=\"https://img.shields.io/badge/Made%20with-Godot-478CBF?style=flat&logo=godot%20engine&logoColor=white\" />\r\n    <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"GLSL\" src=\"https://img.shields.io/badge/-GLSL-8c5aee\" />\r\n    <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"C#\" src=\"https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white\" />\r\n</h4>\r\n    \r\n        <h4 class=\"text-gray-600 font-medium text-xs\">Done in 2 weeks, April 2023</h4>\r\n        <div class=\"flex flex-wrap mt-5 gap-2 items-center\">\r\n        <img class=\"w-auto h-auto\" src=\"../assets\\GameAssets\\DualDye/01_TitleCard.png\">\r\n    \r\n    \r\n        </div>\r\n        <div class=\"pt-7\">\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                The last game of my first year ! \r\n            </p>\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                This project was realized in two weeks, most of the production time spent on the brainstorming and level design. The real difficulty was to find a way to make a game interesting with only one button and at the same time make it challenging for the player!\r\n            </p>\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                So I did all the programming and assets part, and using again shaders to give that glow effect to make it looks 'arcade'.    \r\n        </p>\r\n        <p class=\"font-thin text-sm pb-2.5\">\r\n            As for me I did some the core gameplay of the player, so it's basics movements and collisions, the sound manager and then I focused on level design.    \r\n        </p>\r\n    \r\n        </div>\r\n    \r\n    \r\n    <div class=\"flex justify-center\">\r\n    \r\n        <img class=\"w-auto h-40\" src=\"../assets\\GameAssets\\DualDye/03_Gameplay.png\">\r\n        <img class=\"w-auto h-40\" src=\"../assets\\GameAssets\\DualDye/04_Gameplay.png\">\r\n    \r\n    \r\n    </div>\r\n    \r\n    \r\n    </div>\r\n    </template>\r\n    \r\n    <style scoped>\r\n    \r\n    \r\n    .image-container {\r\n        display: flex;\r\n        gap: 10px; /* espace entre les images */\r\n    }\r\n    </style>\r\n    ",
+      "start": 1730054950968,
+      "end": 1730054951187,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1730054951187,
+      "end": 1730054951187,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1730054951187,
+      "end": 1730054951187,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1730054951187,
+      "end": 1730054951187,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1730054951187,
+      "end": 1730054951187,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1730054951187,
+      "end": 1730054951187,
+      "order": "pre"
+    },
+    {
+      "name": "server-only-component-transform",
+      "start": 1730054951187,
+      "end": 1730054951187,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1730054951187,
+      "end": 1730054951187,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1730054951187,
+      "end": 1730054951187,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1730054951187,
+      "end": 1730054951187,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1730054951187,
+      "end": 1730054951187,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { ssrRenderStyle as _ssrRenderStyle, ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '../assets/GameAssets/DualDye/01_TitleCard.png'\nimport _imports_1 from '../assets/GameAssets/DualDye/03_Gameplay.png'\nimport _imports_2 from '../assets/GameAssets/DualDye/04_Gameplay.png'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  _push(`<div${\n    _ssrRenderAttrs(_attrs)\n  } data-v-28323d7a><h1 data-v-28323d7a>Dual Dye Dash</h1><h4 class=\"text-gray-600 font-medium text-xs\" style=\"${\n    _ssrRenderStyle({\"padding-bottom\":\"10px\",\"display\":\"flex\",\"gap\":\"5px\"})\n  }\" data-v-28323d7a><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Godot\" src=\"https://img.shields.io/badge/Made%20with-Godot-478CBF?style=flat&amp;logo=godot%20engine&amp;logoColor=white\" data-v-28323d7a><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"GLSL\" src=\"https://img.shields.io/badge/-GLSL-8c5aee\" data-v-28323d7a><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"C#\" src=\"https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&amp;logoColor=white\" data-v-28323d7a></h4><h4 class=\"text-gray-600 font-medium text-xs\" data-v-28323d7a>Done in 2 weeks, April 2023</h4><div class=\"flex flex-wrap mt-5 gap-2 items-center\" data-v-28323d7a><img class=\"w-auto h-auto\"${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } data-v-28323d7a></div><div class=\"pt-7\" data-v-28323d7a><p class=\"font-thin text-sm pb-2.5\" data-v-28323d7a> The last game of my first year ! </p><p class=\"font-thin text-sm pb-2.5\" data-v-28323d7a> This project was realized in two weeks, most of the production time spent on the brainstorming and level design. The real difficulty was to find a way to make a game interesting with only one button and at the same time make it challenging for the player! </p><p class=\"font-thin text-sm pb-2.5\" data-v-28323d7a> So I did all the programming and assets part, and using again shaders to give that glow effect to make it looks &#39;arcade&#39;. </p><p class=\"font-thin text-sm pb-2.5\" data-v-28323d7a> As for me I did some the core gameplay of the player, so it&#39;s basics movements and collisions, the sound manager and then I focused on level design. </p></div><div class=\"flex justify-center\" data-v-28323d7a><img class=\"w-auto h-40\"${\n    _ssrRenderAttr(\"src\", _imports_1)\n  } data-v-28323d7a><img class=\"w-auto h-40\"${\n    _ssrRenderAttr(\"src\", _imports_2)\n  } data-v-28323d7a></div></div>`)\n}\n\nimport \"C:/Users/dosor/Desktop/win95/views/Projects/Dual.vue?vue&type=style&index=0&scoped=28323d7a&lang.css\"\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"views/Projects/Dual.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',\"data-v-28323d7a\"]])",
+      "start": 1730054951187,
+      "end": 1730054951189,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/dosor/Desktop/win95/views/Projects/Dual.vue"
+        ],
+        "names": [],
+        "mappings": ";OAamC,UAAmD;OAuBrD,UAAkD;OAClD,UAAkD;;;;EArCnF;IAAA,gBAAA;;IAAA,gBAKsD,sDAAsD;;IAL5G,eAamC,KAAmD,EAAnD,UAAmD;;IAbtF,eAoCiC,KAAkD,EAAlD,UAAkD;;IApCnF,eAqCiC,KAAkD,EAAlD,UAAkD",
+        "sourcesContent": [
+          "<template>\r\n    <div>\r\n    \r\n    <!-- Titre -->\r\n        <h1>Dual Dye Dash</h1>\r\n        <h4 class=\"text-gray-600 font-medium text-xs\" style=\"padding-bottom: 10px; display: flex; gap: 5px;\">\r\n    <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Godot\" src=\"https://img.shields.io/badge/Made%20with-Godot-478CBF?style=flat&logo=godot%20engine&logoColor=white\" />\r\n    <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"GLSL\" src=\"https://img.shields.io/badge/-GLSL-8c5aee\" />\r\n    <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"C#\" src=\"https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white\" />\r\n</h4>\r\n    \r\n        <h4 class=\"text-gray-600 font-medium text-xs\">Done in 2 weeks, April 2023</h4>\r\n        <div class=\"flex flex-wrap mt-5 gap-2 items-center\">\r\n        <img class=\"w-auto h-auto\" src=\"../assets\\GameAssets\\DualDye/01_TitleCard.png\">\r\n    \r\n    \r\n        </div>\r\n        <div class=\"pt-7\">\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                The last game of my first year ! \r\n            </p>\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                This project was realized in two weeks, most of the production time spent on the brainstorming and level design. The real difficulty was to find a way to make a game interesting with only one button and at the same time make it challenging for the player!\r\n            </p>\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                So I did all the programming and assets part, and using again shaders to give that glow effect to make it looks 'arcade'.    \r\n        </p>\r\n        <p class=\"font-thin text-sm pb-2.5\">\r\n            As for me I did some the core gameplay of the player, so it's basics movements and collisions, the sound manager and then I focused on level design.    \r\n        </p>\r\n    \r\n        </div>\r\n    \r\n    \r\n    <div class=\"flex justify-center\">\r\n    \r\n        <img class=\"w-auto h-40\" src=\"../assets\\GameAssets\\DualDye/03_Gameplay.png\">\r\n        <img class=\"w-auto h-40\" src=\"../assets\\GameAssets\\DualDye/04_Gameplay.png\">\r\n    \r\n    \r\n    </div>\r\n    \r\n    \r\n    </div>\r\n    </template>\r\n    \r\n    <style scoped>\r\n    \r\n    \r\n    .image-container {\r\n        display: flex;\r\n        gap: 10px; /* espace entre les images */\r\n    }\r\n    </style>\r\n    "
+        ]
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1730054951189,
+      "end": 1730054951189,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951189,
+      "end": 1730054951189,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951189,
+      "end": 1730054951189,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1730054951189,
+      "end": 1730054951189,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1730054951189,
+      "end": 1730054951189,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1730054951189,
+      "end": 1730054951189,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951189,
+      "end": 1730054951189,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1730054951189,
+      "end": 1730054951190,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1730054951190,
+      "end": 1730054951190,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1730054951190,
+      "end": 1730054951190,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1730054951190,
+      "end": 1730054951190,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1730054951190,
+      "end": 1730054951190,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1730054951190,
+      "end": 1730054951190,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1730054951190,
+      "end": 1730054951190,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1730054951190,
+      "end": 1730054951190,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1730054951190,
+      "end": 1730054951190,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1730054951190,
+      "end": 1730054951190,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1730054951190,
+      "end": 1730054951190,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1730054951190,
+      "end": 1730054951191,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1730054951190,
+      "end": 1730054951191,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1730054951191,
+      "end": 1730054951191,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1730054951191,
+      "end": 1730054951191,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1730054951191,
+      "end": 1730054951191,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1730054951191,
+      "end": 1730054951191,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1730054951191,
+      "end": 1730054951191,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1730054951191,
+      "end": 1730054951191,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1730054951191,
+      "end": 1730054951191,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1730054951191,
+      "end": 1730054951191,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1730054951191,
+      "end": 1730054951191,
+      "order": "normal"
+    }
+  ]
+}

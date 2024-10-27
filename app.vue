@@ -140,7 +140,7 @@ onMounted(() => {
 
 @font-face {
   font-family: "MS Sans Serif";
-  src: url("@/assets/fonts/MS-Sans-Serif.ttf");
+  src: url("./assets/fonts/MS-Sans-Serif.ttf");
 }
 
 /*-------------------------------------------*\

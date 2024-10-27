@@ -2,8 +2,8 @@
 <div>
     <div class="flex justify-center">
 
-    <img class="w-auto h-40" src="@/assets/Biography/me.png" />
-</div>
+        <img class="w-auto h-40" src="../assets/Biography/me.png" />
+    </div>
 
     <h2 class="font-bold text-2xl py-5">Dany Osorio Echeverry</h2>
     <h4 class="text-gray-600 font-medium text-xs" style="padding-bottom: 10px">

@@ -1,0 +1,294 @@
+{
+  "resolvedId": "C:/Users/dosor/Desktop/win95/templates/StartMenu.vue?vue&type=style&index=0&scoped=be6b358e&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n.menu {\r\n    width: 165px;\r\n    height: 282px;\r\n    background: black;\r\n    background: rgb(195, 195, 195);\r\n    overflow: hidden;\r\n    border-top: solid rgb(250, 250, 250) 2px;\r\n    border-left: solid rgb(250, 250, 250) 2px;\r\n    border-right: solid rgb(90, 90, 90) 1.5px;\r\n    border-bottom: solid rgb(90, 90, 90) 1.5px;\r\n    box-shadow: 1.5px 1.5px black;\r\n    max-height: 100%;\r\n    max-width: 100%;\r\n    align-items: flex-end;\r\n    outline: rgb(222, 222, 222) 1px solid;\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: flex-start;\r\n    font-size: 12px;\r\n}\r\n\r\na {\r\n    color: black;\r\n    text-decoration: none;\r\n}\r\n\r\n.sidebar {\r\n    width: 25px;\r\n    background: rgb(123, 125, 123);\r\n    height: 100%;\r\n    display: flex;\r\n    align-items: flex-end;\r\n}\r\n\r\n.sidebar-image {\r\n    width: 100%;\r\n}\r\n\r\n@media only screen and (max-width: 600px) {\r\n    .sidebar {\r\n        width: 25px;\r\n        background: rgb(123, 125, 123);\r\n        height: 100%;\r\n        display: flex;\r\n        align-items: flex-end;\r\n    }\r\n}\r\n\r\n.divider {\r\n    width: 100%;\r\n    height: 1px;\r\n    background: rgb(123, 125, 123);\r\n    border-bottom: white solid 1px;\r\n}\r\n\r\n.socials {\r\n    flex-grow: 1;\r\n}\r\n\r\n.social-image {\r\n    width: 30px;\r\n    height: 30px;\r\n    margin-right: 10px;\r\n    border-radius: 6px;\r\n}\r\n\r\n.bar {\r\n    display: flex;\r\n    flex-direction: row;\r\n    padding: 5px 10px 5px 10px;\r\n    align-items: center;\r\n}\r\n\r\n.bar:hover {\r\n    background: rgb(0, 0, 118);\r\n    color: white;\r\n}\r\n",
+      "start": 1730054951426,
+      "end": 1730054951426,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/dosor/Desktop/win95/templates/StartMenu.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "C:/Users/dosor/Desktop/win95/templates/StartMenu.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n<div class=\"menu\" style=\"z-index: 1000000\">\r\n    <div class=\"sidebar\">\r\n        <img class=\"sidebar-image\" src=\"@/assets/sidebar-image.png\" />\r\n    </div>\r\n    <div class=\"socials\">\r\n        <a href=\"https://www.instagram.com/dany_makes_games/\" target=\"_blank\">\r\n            <div class=\"bar\">\r\n                <img class=\"social-image\" src=\"@/assets/iPhone-Icons/Instagram.webp\" />\r\n                <div class=\"social-text\"><u>I</u>nstagram</div>\r\n            </div>\r\n        </a>\r\n\r\n        <a href=\"https://www.linkedin.com/in/daniloosorioecheverry/\" target=\"_blank\">\r\n            <div class=\"bar\">\r\n                <img class=\"social-image\" src=\"@/assets/iPhone-Icons/Linkedin.webp\" />\r\n                <u>L</u>inkedIn\r\n            </div>\r\n        </a>\r\n        \r\n        <a href=\"https://github.com/iamdanychock\" target=\"_blank\">\r\n            <div class=\"bar\">\r\n                <img class=\"social-image\" src=\"@/assets/iPhone-Icons/Github.webp\" />\r\n                GitHub\r\n            </div>\r\n        </a>\r\n\r\n        <a href=\"https://jun0h.itch.io\" target=\"_blank\">\r\n            <div class=\"bar\">\r\n                <img class=\"social-image\" src=\"@/assets/iPhone-Icons/itch.io-logo.png\" />\r\n                Itch.io\r\n            </div>\r\n        </a>\r\n        <div class=\"divider\"></div>\r\n        <a href=\"/files/CV_Danilo_OSORIO_Revised.pdf\" target=\"_blank\">\r\n            <div class=\"bar\">\r\n                <img class=\"social-image\" src=\"@/assets/win95Icons/resume.png\" />\r\n                <u>R</u>ésumé\r\n            </div>\r\n        </a>\r\n        \r\n    </div>\r\n</div>\r\n</template>\r\n\r\n  \r\n<style scoped>\r\n.menu {\r\n    width: 165px;\r\n    height: 282px;\r\n    background: black;\r\n    background: rgb(195, 195, 195);\r\n    overflow: hidden;\r\n    border-top: solid rgb(250, 250, 250) 2px;\r\n    border-left: solid rgb(250, 250, 250) 2px;\r\n    border-right: solid rgb(90, 90, 90) 1.5px;\r\n    border-bottom: solid rgb(90, 90, 90) 1.5px;\r\n    box-shadow: 1.5px 1.5px black;\r\n    max-height: 100%;\r\n    max-width: 100%;\r\n    align-items: flex-end;\r\n    outline: rgb(222, 222, 222) 1px solid;\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: flex-start;\r\n    font-size: 12px;\r\n}\r\n\r\na {\r\n    color: black;\r\n    text-decoration: none;\r\n}\r\n\r\n.sidebar {\r\n    width: 25px;\r\n    background: rgb(123, 125, 123);\r\n    height: 100%;\r\n    display: flex;\r\n    align-items: flex-end;\r\n}\r\n\r\n.sidebar-image {\r\n    width: 100%;\r\n}\r\n\r\n@media only screen and (max-width: 600px) {\r\n    .sidebar {\r\n        width: 25px;\r\n        background: rgb(123, 125, 123);\r\n        height: 100%;\r\n        display: flex;\r\n        align-items: flex-end;\r\n    }\r\n}\r\n\r\n.divider {\r\n    width: 100%;\r\n    height: 1px;\r\n    background: rgb(123, 125, 123);\r\n    border-bottom: white solid 1px;\r\n}\r\n\r\n.socials {\r\n    flex-grow: 1;\r\n}\r\n\r\n.social-image {\r\n    width: 30px;\r\n    height: 30px;\r\n    margin-right: 10px;\r\n    border-radius: 6px;\r\n}\r\n\r\n.bar {\r\n    display: flex;\r\n    flex-direction: row;\r\n    padding: 5px 10px 5px 10px;\r\n    align-items: center;\r\n}\r\n\r\n.bar:hover {\r\n    background: rgb(0, 0, 118);\r\n    color: white;\r\n}\r\n</style>\r\n"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1730054951427,
+      "end": 1730054951427,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1730054951427,
+      "end": 1730054951427,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1730054951427,
+      "end": 1730054951427,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1730054951427,
+      "end": 1730054951427,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1730054951427,
+      "end": 1730054951427,
+      "order": "pre"
+    },
+    {
+      "name": "server-only-component-transform",
+      "start": 1730054951427,
+      "end": 1730054951427,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".menu{align-items:flex-end;align-items:flex-start;background:#000;background:#c3c3c3;border-color:#fafafa #5a5a5a #5a5a5a #fafafa;border-style:solid;border-width:2px 1.5px 1.5px 2px;box-shadow:1.5px 1.5px #000;display:flex;flex-direction:row;font-size:12px;height:282px;max-height:100%;max-width:100%;outline:1px solid #dedede;overflow:hidden;width:165px}a{color:#000;text-decoration:none}.sidebar{align-items:flex-end;background:#7b7d7b;display:flex;height:100%;width:25px}.sidebar-image{width:100%}@media only screen and (max-width:600px){.sidebar{align-items:flex-end;background:#7b7d7b;display:flex;height:100%;width:25px}}.divider{background:#7b7d7b;border-bottom:1px solid #fff;height:1px;width:100%}.socials{flex-grow:1}.social-image{border-radius:6px;height:30px;margin-right:10px;width:30px}.bar{align-items:center;display:flex;flex-direction:row;padding:5px 10px}.bar:hover{background:#000076;color:#fff}",
+      "start": 1730054951427,
+      "end": 1730054951432,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/dosor/Desktop/win95/templates/StartMenu.vue",
+        "mappings": "AACA,MAaI,oBAAqB,CAIrB,sBAAuB,CAdvB,eAAiB,CACjB,kBAA8B,CAK9B,4CAA0C,CAA1C,kBAA0C,CAA1C,gCAA0C,CAC1C,2BAA6B,CAK7B,YAAa,CACb,kBAAmB,CAEnB,cAAe,CAhBf,YAAa,CASb,eAAgB,CAChB,cAAe,CAEf,yBAAqC,CATrC,eAAgB,CAJhB,WAkBJ,CAEA,EACI,UAAY,CACZ,oBACJ,CAEA,SAKI,oBAAqB,CAHrB,kBAA8B,CAE9B,YAAa,CADb,WAAY,CAFZ,UAKJ,CAEA,eACI,UACJ,CAEA,yCACI,SAKI,oBAAqB,CAHrB,kBAA8B,CAE9B,YAAa,CADb,WAAY,CAFZ,UAKJ,CACJ,CAEA,SAGI,kBAA8B,CAC9B,4BAA8B,CAF9B,UAAW,CADX,UAIJ,CAEA,SACI,WACJ,CAEA,cAII,iBAAkB,CAFlB,WAAY,CACZ,iBAAkB,CAFlB,UAIJ,CAEA,KAII,kBAAmB,CAHnB,YAAa,CACb,kBAAmB,CACnB,gBAEJ,CAEA,WACI,kBAA0B,CAC1B,UACJ",
+        "names": [],
+        "sources": [
+          "C:/Users/dosor/Desktop/win95/templates/StartMenu.vue"
+        ],
+        "sourcesContent": [
+          "\r\n.menu {\r\n    width: 165px;\r\n    height: 282px;\r\n    background: black;\r\n    background: rgb(195, 195, 195);\r\n    overflow: hidden;\r\n    border-top: solid rgb(250, 250, 250) 2px;\r\n    border-left: solid rgb(250, 250, 250) 2px;\r\n    border-right: solid rgb(90, 90, 90) 1.5px;\r\n    border-bottom: solid rgb(90, 90, 90) 1.5px;\r\n    box-shadow: 1.5px 1.5px black;\r\n    max-height: 100%;\r\n    max-width: 100%;\r\n    align-items: flex-end;\r\n    outline: rgb(222, 222, 222) 1px solid;\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: flex-start;\r\n    font-size: 12px;\r\n}\r\n\r\na {\r\n    color: black;\r\n    text-decoration: none;\r\n}\r\n\r\n.sidebar {\r\n    width: 25px;\r\n    background: rgb(123, 125, 123);\r\n    height: 100%;\r\n    display: flex;\r\n    align-items: flex-end;\r\n}\r\n\r\n.sidebar-image {\r\n    width: 100%;\r\n}\r\n\r\n@media only screen and (max-width: 600px) {\r\n    .sidebar {\r\n        width: 25px;\r\n        background: rgb(123, 125, 123);\r\n        height: 100%;\r\n        display: flex;\r\n        align-items: flex-end;\r\n    }\r\n}\r\n\r\n.divider {\r\n    width: 100%;\r\n    height: 1px;\r\n    background: rgb(123, 125, 123);\r\n    border-bottom: white solid 1px;\r\n}\r\n\r\n.socials {\r\n    flex-grow: 1;\r\n}\r\n\r\n.social-image {\r\n    width: 30px;\r\n    height: 30px;\r\n    margin-right: 10px;\r\n    border-radius: 6px;\r\n}\r\n\r\n.bar {\r\n    display: flex;\r\n    flex-direction: row;\r\n    padding: 5px 10px 5px 10px;\r\n    align-items: center;\r\n}\r\n\r\n.bar:hover {\r\n    background: rgb(0, 0, 118);\r\n    color: white;\r\n}\r\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1730054951432,
+      "end": 1730054951432,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1730054951432,
+      "end": 1730054951432,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1730054951432,
+      "end": 1730054951432,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".menu[data-v-be6b358e]{align-items:flex-end;align-items:flex-start;background:#000;background:#c3c3c3;border-color:#fafafa #5a5a5a #5a5a5a #fafafa;border-style:solid;border-width:2px 1.5px 1.5px 2px;box-shadow:1.5px 1.5px #000;display:flex;flex-direction:row;font-size:12px;height:282px;max-height:100%;max-width:100%;outline:1px solid #dedede;overflow:hidden;width:165px}a[data-v-be6b358e]{color:#000;text-decoration:none}.sidebar[data-v-be6b358e]{align-items:flex-end;background:#7b7d7b;display:flex;height:100%;width:25px}.sidebar-image[data-v-be6b358e]{width:100%}@media only screen and (max-width:600px){.sidebar[data-v-be6b358e]{align-items:flex-end;background:#7b7d7b;display:flex;height:100%;width:25px}}.divider[data-v-be6b358e]{background:#7b7d7b;border-bottom:1px solid #fff;height:1px;width:100%}.socials[data-v-be6b358e]{flex-grow:1}.social-image[data-v-be6b358e]{border-radius:6px;height:30px;margin-right:10px;width:30px}.bar[data-v-be6b358e]{align-items:center;display:flex;flex-direction:row;padding:5px 10px}.bar[data-v-be6b358e]:hover{background:#000076;color:#fff}",
+      "start": 1730054951432,
+      "end": 1730054951433,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/dosor/Desktop/win95/templates/StartMenu.vue",
+        "mappings": "AAAA,uBAAM,oBAAoB,CAAC,sBAAsB,CAAC,eAAe,CAAC,kBAAkB,CAAC,4CAA4C,CAAC,kBAAkB,CAAC,gCAAgC,CAAC,2BAA2B,CAAC,YAAY,CAAC,kBAAkB,CAAC,cAAc,CAAC,YAAY,CAAC,eAAe,CAAC,cAAc,CAAC,yBAAyB,CAAC,eAAe,CAAC,WAAW,CAAC,mBAAE,UAAU,CAAC,oBAAoB,CAAC,0BAAS,oBAAoB,CAAC,kBAAkB,CAAC,YAAY,CAAC,WAAW,CAAC,UAAU,CAAC,gCAAe,UAAU,CAAC,yCAAyC,0BAAS,oBAAoB,CAAC,kBAAkB,CAAC,YAAY,CAAC,WAAW,CAAC,UAAU,CAAC,CAAC,0BAAS,kBAAkB,CAAC,4BAA4B,CAAC,UAAU,CAAC,UAAU,CAAC,0BAAS,WAAW,CAAC,+BAAc,iBAAiB,CAAC,WAAW,CAAC,iBAAiB,CAAC,UAAU,CAAC,sBAAK,kBAAkB,CAAC,YAAY,CAAC,kBAAkB,CAAC,gBAAgB,CAAC,4BAAW,kBAAkB,CAAC,UAAU",
+        "names": [],
+        "sources": [
+          "C:/Users/dosor/Desktop/win95/templates/StartMenu.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1730054951433,
+      "end": 1730054951433,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951433,
+      "end": 1730054951433,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951433,
+      "end": 1730054951433,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1730054951433,
+      "end": 1730054951433,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1730054951433,
+      "end": 1730054951433,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1730054951433,
+      "end": 1730054951433,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951433,
+      "end": 1730054951433,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1730054951433,
+      "end": 1730054951434,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1730054951434,
+      "end": 1730054951434,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "",
+      "start": 1730054951434,
+      "end": 1730054951434,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1730054951434,
+      "end": 1730054951434,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1730054951434,
+      "end": 1730054951434,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1730054951434,
+      "end": 1730054951434,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1730054951434,
+      "end": 1730054951435,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1730054951435,
+      "end": 1730054951435,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1730054951435,
+      "end": 1730054951435,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1730054951435,
+      "end": 1730054951435,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1730054951435,
+      "end": 1730054951435,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1730054951435,
+      "end": 1730054951435,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1730054951435,
+      "end": 1730054951435,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1730054951435,
+      "end": 1730054951435,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1730054951435,
+      "end": 1730054951435,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1730054951435,
+      "end": 1730054951435,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1730054951435,
+      "end": 1730054951435,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1730054951435,
+      "end": 1730054951435,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1730054951435,
+      "end": 1730054951435,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1730054951435,
+      "end": 1730054951435,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1730054951435,
+      "end": 1730054951435,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1730054951435,
+      "end": 1730054951435,
+      "order": "normal"
+    }
+  ]
+}

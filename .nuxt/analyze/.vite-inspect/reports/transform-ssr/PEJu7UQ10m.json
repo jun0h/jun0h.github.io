@@ -1,0 +1,264 @@
+{
+  "resolvedId": "C:/Users/dosor/Desktop/win95/views/Projects/StrayNight.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n<div>\r\n\r\n<!-- Titre -->\r\n    <h1>Stray's Night</h1>\r\n    <h4 class=\"text-gray-600 font-medium text-xs\" style=\"padding-bottom: 10px; display: flex; gap: 5px;\">\r\n    <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Godot\" src=\"https://img.shields.io/badge/Made%20with-Godot-478CBF?style=flat&logo=godot%20engine&logoColor=white\" />\r\n    <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"GD Script\" src=\"https://img.shields.io/badge/-GD Script-478CBF\" />\r\n</h4>\r\n\r\n    <h4 class=\"text-gray-600 font-medium text-xs\">Done in March 2022</h4>\r\n    <div class=\"flex flex-wrap mt-5 gap-2 items-center\">\r\n\r\n\r\n    <img class=\"w-15  h-15\" src=\"../assets\\GameAssets\\Star\\1.png\">\r\n\r\n\r\n    </div>\r\n    <div class=\"pt-7\">\r\n        <p class=\"font-thin text-sm pb-2.5\">\r\n            The very first project I carried out on Godot Engine using GD Script.\r\n\r\n        </p>\r\n        <p class=\"font-thin text-sm pb-2.5\">\r\n            So it's a 2D platformer featuring a cat walking from building to building while avoiding the void and enemies on the rooftops.\r\n        </p>\r\n        <p class=\"font-thin text-sm pb-2.5\">\r\n            As an anecdote, this project was done in preparation for my entrance exam at ISART.\r\n            (looks like it worked)\r\n\r\n    </p>\r\n    <p class=\"font-thin text-sm pb-2.5\">\r\n        Platformers have always had a significant place in my vision of video games, especially Celeste, which is one of the games that pushed me to pursue this path!        </p>\r\n\r\n\r\n    </div>\r\n    <div class=\"flex justify-center\">\r\n\r\n<iframe frameborder=\"0\" src=\"https://itch.io/embed/1486965?linkback=true\" width=\"552\" height=\"167\"><a href=\"https://jun0h.itch.io/strays-night\">Stray's Night by Dany</a></iframe>\r\n</div>\r\n\r\n<div class=\"flex justify-center\">\r\n\r\n    <div class=\"image-container\">\r\n    <img class=\"w-auto h-autp\" src=\"../assets/GameAssets/Star/2.png\">\r\n    <img class=\"w-auto h-auto\" src=\"../assets/GameAssets/Star/3.png\">\r\n</div>\r\n\r\n\r\n</div>\r\n\r\n\r\n</div>\r\n</template>\r\n\r\n<style scoped>\r\n/*-------------------------------------------*\\\r\n    Windows/Display\r\n\\*-------------------------------------------*/\r\n\r\n.minimize {\r\n    display: none;\r\n}\r\n\r\n.window {\r\n    box-sizing: border-box;\r\n    padding: 0px;\r\n    margin: 0px;\r\n    user-select: none;\r\n    -ms-touch-action: none;\r\n    touch-action: none;\r\n    flex-flow: column;\r\n    display: flex;\r\n}\r\n\r\n.fullscreen {\r\n    width: 100% !important;\r\n    height: var(--fullscreen) !important;\r\n    margin: 0;\r\n    transition: all 0.5s ease;\r\n    padding: 0;\r\n}\r\n\r\n.content {\r\n    flex-grow: 1;\r\n    overflow-x: hidden;\r\n    padding-right: var(--content-padding-right);\r\n    padding-left: var(--content-padding-left);\r\n    padding-top: var(--content-padding-top);\r\n    padding-bottom: var(--content-padding-bottom);\r\n}\r\n\r\n/*-------------------------------------------*\\\r\n    Top Bar\r\n\\*-------------------------------------------*/\r\n\r\n.top-bar {\r\n    background: rgb(0, 0, 124);\r\n}\r\n\r\n.icon-image {\r\n    width: 15px;\r\n    height: 15px;\r\n    margin-right: 5px;\r\n}\r\n\r\n.top-bar-window {\r\n    display: flex;\r\n    width: auto;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n    flex-direction: row;\r\n    z-index: 10;\r\n    margin: 2px;\r\n    padding: 2px 2px 2px 2px;\r\n}\r\n\r\n.top-bar-deactivated {\r\n    background: rgb(123, 125, 123);\r\n}\r\n\r\n.top-bar:hover {\r\n    cursor: default;\r\n}\r\n\r\n.window-name {\r\n    color: white;\r\n    display: flex;\r\n    align-items: center;\r\n    font-weight: 500;\r\n    padding: 0;\r\n    font-size: 16px;\r\n    margin: 0 0 0 3px;\r\n}\r\n\r\n.icon-image {\r\n    width: 15px;\r\n    height: 15px;\r\n    margin-right: 5px;\r\n    margin-top: 0;\r\n    margin-bottom: 0;\r\n}\r\n\r\n.image-container {\r\n    display: inside;\r\n    gap: 10px; /* espace entre les images */\r\n}\r\n</style>\r\n",
+      "start": 1730054950963,
+      "end": 1730054951166,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1730054951166,
+      "end": 1730054951166,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1730054951166,
+      "end": 1730054951166,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1730054951166,
+      "end": 1730054951166,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1730054951166,
+      "end": 1730054951166,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1730054951166,
+      "end": 1730054951166,
+      "order": "pre"
+    },
+    {
+      "name": "server-only-component-transform",
+      "start": 1730054951166,
+      "end": 1730054951166,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1730054951166,
+      "end": 1730054951166,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1730054951166,
+      "end": 1730054951166,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1730054951166,
+      "end": 1730054951166,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1730054951169,
+      "end": 1730054951169,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { ssrRenderStyle as _ssrRenderStyle, ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '../assets/GameAssets/Star/1.png'\nimport _imports_1 from '../assets/GameAssets/Star/2.png'\nimport _imports_2 from '../assets/GameAssets/Star/3.png'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  _push(`<div${\n    _ssrRenderAttrs(_attrs)\n  } data-v-8a4e024d><h1 data-v-8a4e024d>Stray&#39;s Night</h1><h4 class=\"text-gray-600 font-medium text-xs\" style=\"${\n    _ssrRenderStyle({\"padding-bottom\":\"10px\",\"display\":\"flex\",\"gap\":\"5px\"})\n  }\" data-v-8a4e024d><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Godot\" src=\"https://img.shields.io/badge/Made%20with-Godot-478CBF?style=flat&amp;logo=godot%20engine&amp;logoColor=white\" data-v-8a4e024d><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"GD Script\" src=\"https://img.shields.io/badge/-GD Script-478CBF\" data-v-8a4e024d></h4><h4 class=\"text-gray-600 font-medium text-xs\" data-v-8a4e024d>Done in March 2022</h4><div class=\"flex flex-wrap mt-5 gap-2 items-center\" data-v-8a4e024d><img class=\"w-15 h-15\"${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } data-v-8a4e024d></div><div class=\"pt-7\" data-v-8a4e024d><p class=\"font-thin text-sm pb-2.5\" data-v-8a4e024d> The very first project I carried out on Godot Engine using GD Script. </p><p class=\"font-thin text-sm pb-2.5\" data-v-8a4e024d> So it&#39;s a 2D platformer featuring a cat walking from building to building while avoiding the void and enemies on the rooftops. </p><p class=\"font-thin text-sm pb-2.5\" data-v-8a4e024d> As an anecdote, this project was done in preparation for my entrance exam at ISART. (looks like it worked) </p><p class=\"font-thin text-sm pb-2.5\" data-v-8a4e024d> Platformers have always had a significant place in my vision of video games, especially Celeste, which is one of the games that pushed me to pursue this path! </p></div><div class=\"flex justify-center\" data-v-8a4e024d><iframe frameborder=\"0\" src=\"https://itch.io/embed/1486965?linkback=true\" width=\"552\" height=\"167\" data-v-8a4e024d><a href=\"https://jun0h.itch.io/strays-night\" data-v-8a4e024d>Stray&#39;s Night by Dany</a></iframe></div><div class=\"flex justify-center\" data-v-8a4e024d><div class=\"image-container\" data-v-8a4e024d><img class=\"w-auto h-autp\"${\n    _ssrRenderAttr(\"src\", _imports_1)\n  } data-v-8a4e024d><img class=\"w-auto h-auto\"${\n    _ssrRenderAttr(\"src\", _imports_2)\n  } data-v-8a4e024d></div></div></div>`)\n}\n\nimport \"C:/Users/dosor/Desktop/win95/views/Projects/StrayNight.vue?vue&type=style&index=0&scoped=8a4e024d&lang.css\"\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"views/Projects/StrayNight.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',\"data-v-8a4e024d\"]])",
+      "start": 1730054951169,
+      "end": 1730054951170,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/dosor/Desktop/win95/views/Projects/StrayNight.vue"
+        ],
+        "names": [],
+        "mappings": ";OAc4B,UAAqC;OA8BlC,UAAqC;OACrC,UAAqC;;;;EA7CpE;IAAA,gBAAA;;IAAA,gBAKkD,sDAAsD;;IALxG,eAc4B,KAAqC,EAArC,UAAqC;;IAdjE,eA4C+B,KAAqC,EAArC,UAAqC;;IA5CpE,eA6C+B,KAAqC,EAArC,UAAqC",
+        "sourcesContent": [
+          "<template>\r\n<div>\r\n\r\n<!-- Titre -->\r\n    <h1>Stray's Night</h1>\r\n    <h4 class=\"text-gray-600 font-medium text-xs\" style=\"padding-bottom: 10px; display: flex; gap: 5px;\">\r\n    <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Godot\" src=\"https://img.shields.io/badge/Made%20with-Godot-478CBF?style=flat&logo=godot%20engine&logoColor=white\" />\r\n    <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"GD Script\" src=\"https://img.shields.io/badge/-GD Script-478CBF\" />\r\n</h4>\r\n\r\n    <h4 class=\"text-gray-600 font-medium text-xs\">Done in March 2022</h4>\r\n    <div class=\"flex flex-wrap mt-5 gap-2 items-center\">\r\n\r\n\r\n    <img class=\"w-15  h-15\" src=\"../assets\\GameAssets\\Star\\1.png\">\r\n\r\n\r\n    </div>\r\n    <div class=\"pt-7\">\r\n        <p class=\"font-thin text-sm pb-2.5\">\r\n            The very first project I carried out on Godot Engine using GD Script.\r\n\r\n        </p>\r\n        <p class=\"font-thin text-sm pb-2.5\">\r\n            So it's a 2D platformer featuring a cat walking from building to building while avoiding the void and enemies on the rooftops.\r\n        </p>\r\n        <p class=\"font-thin text-sm pb-2.5\">\r\n            As an anecdote, this project was done in preparation for my entrance exam at ISART.\r\n            (looks like it worked)\r\n\r\n    </p>\r\n    <p class=\"font-thin text-sm pb-2.5\">\r\n        Platformers have always had a significant place in my vision of video games, especially Celeste, which is one of the games that pushed me to pursue this path!        </p>\r\n\r\n\r\n    </div>\r\n    <div class=\"flex justify-center\">\r\n\r\n<iframe frameborder=\"0\" src=\"https://itch.io/embed/1486965?linkback=true\" width=\"552\" height=\"167\"><a href=\"https://jun0h.itch.io/strays-night\">Stray's Night by Dany</a></iframe>\r\n</div>\r\n\r\n<div class=\"flex justify-center\">\r\n\r\n    <div class=\"image-container\">\r\n    <img class=\"w-auto h-autp\" src=\"../assets/GameAssets/Star/2.png\">\r\n    <img class=\"w-auto h-auto\" src=\"../assets/GameAssets/Star/3.png\">\r\n</div>\r\n\r\n\r\n</div>\r\n\r\n\r\n</div>\r\n</template>\r\n\r\n<style scoped>\r\n/*-------------------------------------------*\\\r\n    Windows/Display\r\n\\*-------------------------------------------*/\r\n\r\n.minimize {\r\n    display: none;\r\n}\r\n\r\n.window {\r\n    box-sizing: border-box;\r\n    padding: 0px;\r\n    margin: 0px;\r\n    user-select: none;\r\n    -ms-touch-action: none;\r\n    touch-action: none;\r\n    flex-flow: column;\r\n    display: flex;\r\n}\r\n\r\n.fullscreen {\r\n    width: 100% !important;\r\n    height: var(--fullscreen) !important;\r\n    margin: 0;\r\n    transition: all 0.5s ease;\r\n    padding: 0;\r\n}\r\n\r\n.content {\r\n    flex-grow: 1;\r\n    overflow-x: hidden;\r\n    padding-right: var(--content-padding-right);\r\n    padding-left: var(--content-padding-left);\r\n    padding-top: var(--content-padding-top);\r\n    padding-bottom: var(--content-padding-bottom);\r\n}\r\n\r\n/*-------------------------------------------*\\\r\n    Top Bar\r\n\\*-------------------------------------------*/\r\n\r\n.top-bar {\r\n    background: rgb(0, 0, 124);\r\n}\r\n\r\n.icon-image {\r\n    width: 15px;\r\n    height: 15px;\r\n    margin-right: 5px;\r\n}\r\n\r\n.top-bar-window {\r\n    display: flex;\r\n    width: auto;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n    flex-direction: row;\r\n    z-index: 10;\r\n    margin: 2px;\r\n    padding: 2px 2px 2px 2px;\r\n}\r\n\r\n.top-bar-deactivated {\r\n    background: rgb(123, 125, 123);\r\n}\r\n\r\n.top-bar:hover {\r\n    cursor: default;\r\n}\r\n\r\n.window-name {\r\n    color: white;\r\n    display: flex;\r\n    align-items: center;\r\n    font-weight: 500;\r\n    padding: 0;\r\n    font-size: 16px;\r\n    margin: 0 0 0 3px;\r\n}\r\n\r\n.icon-image {\r\n    width: 15px;\r\n    height: 15px;\r\n    margin-right: 5px;\r\n    margin-top: 0;\r\n    margin-bottom: 0;\r\n}\r\n\r\n.image-container {\r\n    display: inside;\r\n    gap: 10px; /* espace entre les images */\r\n}\r\n</style>\r\n"
+        ]
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1730054951170,
+      "end": 1730054951170,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951170,
+      "end": 1730054951170,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951170,
+      "end": 1730054951170,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1730054951170,
+      "end": 1730054951170,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1730054951170,
+      "end": 1730054951170,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1730054951170,
+      "end": 1730054951171,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951171,
+      "end": 1730054951171,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1730054951171,
+      "end": 1730054951172,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1730054951172,
+      "end": 1730054951172,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1730054951172,
+      "end": 1730054951172,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1730054951172,
+      "end": 1730054951172,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1730054951172,
+      "end": 1730054951172,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1730054951172,
+      "end": 1730054951172,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1730054951172,
+      "end": 1730054951172,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1730054951172,
+      "end": 1730054951172,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1730054951172,
+      "end": 1730054951172,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1730054951172,
+      "end": 1730054951172,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1730054951172,
+      "end": 1730054951172,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1730054951172,
+      "end": 1730054951173,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1730054951172,
+      "end": 1730054951173,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1730054951173,
+      "end": 1730054951173,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1730054951173,
+      "end": 1730054951173,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1730054951173,
+      "end": 1730054951173,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1730054951173,
+      "end": 1730054951173,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1730054951173,
+      "end": 1730054951173,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1730054951173,
+      "end": 1730054951173,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1730054951173,
+      "end": 1730054951173,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1730054951173,
+      "end": 1730054951173,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1730054951173,
+      "end": 1730054951173,
+      "order": "normal"
+    }
+  ]
+}

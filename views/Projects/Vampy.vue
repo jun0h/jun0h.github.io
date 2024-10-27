@@ -2,7 +2,7 @@
     <div>
     
     <!-- Titre -->
-    <img class="w-auto h-40" src="@/assets\GameAssets\vampy\VampyTitle.png">
+    <img class="w-auto h-40" src="../assets\GameAssets\vampy\VampyTitle.png">
     <h4 class="text-gray-600 font-medium text-xs" style="padding-bottom: 10px; display: flex; gap: 5px;">
     <img class="w-auto h-5 rounded-none text-xs" alt="Godot" src="https://img.shields.io/badge/Made%20with-Unity-000000.svg?style=flat&logo=unity" />
     <img class="w-auto h-5 rounded-none text-xs" alt="C#" src="https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white" />

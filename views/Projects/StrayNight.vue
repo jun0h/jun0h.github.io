@@ -12,7 +12,7 @@
     <div class="flex flex-wrap mt-5 gap-2 items-center">
 
 
-    <img class="w-15  h-15" src="@/assets\GameAssets\Star\1.png">
+    <img class="w-15  h-15" src="../assets\GameAssets\Star\1.png">
 
 
     </div>
@@ -42,8 +42,8 @@
 <div class="flex justify-center">
 
     <div class="image-container">
-    <img class="w-auto h-autp" src="@/assets/GameAssets/Star/2.png">
-    <img class="w-auto h-auto" src="@/assets/GameAssets/Star/3.png">
+    <img class="w-auto h-autp" src="../assets/GameAssets/Star/2.png">
+    <img class="w-auto h-auto" src="../assets/GameAssets/Star/3.png">
 </div>
 
 

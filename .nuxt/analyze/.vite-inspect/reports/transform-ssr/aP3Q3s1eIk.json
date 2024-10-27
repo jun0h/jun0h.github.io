@@ -1,0 +1,264 @@
+{
+  "resolvedId": "C:/Users/dosor/Desktop/win95/views/Projects/Vampy.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <div>\r\n    \r\n    <!-- Titre -->\r\n    <img class=\"w-auto h-40\" src=\"../assets\\GameAssets\\vampy\\VampyTitle.png\">\r\n    <h4 class=\"text-gray-600 font-medium text-xs\" style=\"padding-bottom: 10px; display: flex; gap: 5px;\">\r\n    <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Godot\" src=\"https://img.shields.io/badge/Made%20with-Unity-000000.svg?style=flat&logo=unity\" />\r\n    <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"C#\" src=\"https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white\" />\r\n\r\n</h4>\r\n    \r\n        <h4 class=\"text-gray-600 font-medium text-xs\">Done in 2 weeks, April 2023</h4>\r\n        <div class=\"flex flex-wrap mt-5 gap-2 items-center\">\r\n            <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/6OFxrVU8Mj4?si=l3sHKRUuGBkIjhKT&amp;start=24\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>    \r\n        </div>\r\n        <div class=\"pt-7\">\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                Second project in Unity, this one is one of my best projects and the one I had most of the fun doing it.\r\n            </p>\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                This time I collaborated with 3 more programmers, 7 game artists and 3 sound designers.            </p>\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                This game is a 2D platformer about a vampire being chased by his cleaning maid, ironic? right?        </p>\r\n        <p class=\"font-thin text-sm pb-2.5\">\r\n            My part of this project was coding the whole game physic making it pleasant and natural for the player. I also coded the camera logic to value the environnement and the level design and some gameplay bricks        </p>\r\n        <p class=\"font-thin text-sm pb-2.5\">\r\n            On other points I did many juiciness contribution like animating the player, few screenshakes, screen transitions, and all the VFX.        </p>\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                I'm very proud of this project, we did exactly what we imagined for this project, so give it a try!             </p>\r\n        </div>\r\n    \r\n        <iframe frameborder=\"0\" src=\"https://itch.io/embed/2586073\" width=\"552\" height=\"167\"><a href=\"https://jun0h.itch.io/vampy-valentine\">Vampy Valentine by Dany, Ruenito, H_Emilie, Jules l'executable, Lefevre_Florian, Matteo Rnd, Camille_Domain, Bachien</a></iframe>    <div class=\"flex justify-center\">\r\n    \r\n    \r\n    </div>\r\n    \r\n    \r\n    </div>\r\n    </template>\r\n    \r\n    <style scoped>\r\n    \r\n    \r\n    .image-container {\r\n        display: flex;\r\n        gap: 10px; /* espace entre les images */\r\n    }\r\n    </style>\r\n    ",
+      "start": 1730054951013,
+      "end": 1730054951298,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1730054951298,
+      "end": 1730054951298,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1730054951298,
+      "end": 1730054951298,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1730054951298,
+      "end": 1730054951298,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1730054951298,
+      "end": 1730054951298,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1730054951298,
+      "end": 1730054951298,
+      "order": "pre"
+    },
+    {
+      "name": "server-only-component-transform",
+      "start": 1730054951298,
+      "end": 1730054951298,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1730054951298,
+      "end": 1730054951298,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1730054951298,
+      "end": 1730054951298,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1730054951298,
+      "end": 1730054951298,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1730054951298,
+      "end": 1730054951298,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '../assets/GameAssets/vampy/VampyTitle.png'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  _push(`<div${\n    _ssrRenderAttrs(_attrs)\n  } data-v-0118d577><img class=\"w-auto h-40\"${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } data-v-0118d577><h4 class=\"text-gray-600 font-medium text-xs\" style=\"${\n    _ssrRenderStyle({\"padding-bottom\":\"10px\",\"display\":\"flex\",\"gap\":\"5px\"})\n  }\" data-v-0118d577><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Godot\" src=\"https://img.shields.io/badge/Made%20with-Unity-000000.svg?style=flat&amp;logo=unity\" data-v-0118d577><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"C#\" src=\"https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&amp;logoColor=white\" data-v-0118d577></h4><h4 class=\"text-gray-600 font-medium text-xs\" data-v-0118d577>Done in 2 weeks, April 2023</h4><div class=\"flex flex-wrap mt-5 gap-2 items-center\" data-v-0118d577><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/6OFxrVU8Mj4?si=l3sHKRUuGBkIjhKT&amp;start=24\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen data-v-0118d577></iframe></div><div class=\"pt-7\" data-v-0118d577><p class=\"font-thin text-sm pb-2.5\" data-v-0118d577> Second project in Unity, this one is one of my best projects and the one I had most of the fun doing it. </p><p class=\"font-thin text-sm pb-2.5\" data-v-0118d577> This time I collaborated with 3 more programmers, 7 game artists and 3 sound designers. </p><p class=\"font-thin text-sm pb-2.5\" data-v-0118d577> This game is a 2D platformer about a vampire being chased by his cleaning maid, ironic? right? </p><p class=\"font-thin text-sm pb-2.5\" data-v-0118d577> My part of this project was coding the whole game physic making it pleasant and natural for the player. I also coded the camera logic to value the environnement and the level design and some gameplay bricks </p><p class=\"font-thin text-sm pb-2.5\" data-v-0118d577> On other points I did many juiciness contribution like animating the player, few screenshakes, screen transitions, and all the VFX. </p><p class=\"font-thin text-sm pb-2.5\" data-v-0118d577> I&#39;m very proud of this project, we did exactly what we imagined for this project, so give it a try! </p></div><iframe frameborder=\"0\" src=\"https://itch.io/embed/2586073\" width=\"552\" height=\"167\" data-v-0118d577><a href=\"https://jun0h.itch.io/vampy-valentine\" data-v-0118d577>Vampy Valentine by Dany, Ruenito, H_Emilie, Jules l&#39;executable, Lefevre_Florian, Matteo Rnd, Camille_Domain, Bachien</a></iframe> <div class=\"flex justify-center\" data-v-0118d577></div></div>`)\n}\n\nimport \"C:/Users/dosor/Desktop/win95/views/Projects/Vampy.vue?vue&type=style&index=0&scoped=0118d577&lang.css\"\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"views/Projects/Vampy.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',\"data-v-0118d577\"]])",
+      "start": 1730054951298,
+      "end": 1730054951299,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/dosor/Desktop/win95/views/Projects/Vampy.vue"
+        ],
+        "names": [],
+        "mappings": ";OAI6B,UAA+C;;;;EAJ5E;IAAA,gBAAA;;IAAA,eAI6B,KAA+C,EAA/C,UAA+C;;IAJ5E,gBAKkD,sDAAsD",
+        "sourcesContent": [
+          "<template>\r\n    <div>\r\n    \r\n    <!-- Titre -->\r\n    <img class=\"w-auto h-40\" src=\"../assets\\GameAssets\\vampy\\VampyTitle.png\">\r\n    <h4 class=\"text-gray-600 font-medium text-xs\" style=\"padding-bottom: 10px; display: flex; gap: 5px;\">\r\n    <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Godot\" src=\"https://img.shields.io/badge/Made%20with-Unity-000000.svg?style=flat&logo=unity\" />\r\n    <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"C#\" src=\"https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white\" />\r\n\r\n</h4>\r\n    \r\n        <h4 class=\"text-gray-600 font-medium text-xs\">Done in 2 weeks, April 2023</h4>\r\n        <div class=\"flex flex-wrap mt-5 gap-2 items-center\">\r\n            <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/6OFxrVU8Mj4?si=l3sHKRUuGBkIjhKT&amp;start=24\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>    \r\n        </div>\r\n        <div class=\"pt-7\">\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                Second project in Unity, this one is one of my best projects and the one I had most of the fun doing it.\r\n            </p>\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                This time I collaborated with 3 more programmers, 7 game artists and 3 sound designers.            </p>\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                This game is a 2D platformer about a vampire being chased by his cleaning maid, ironic? right?        </p>\r\n        <p class=\"font-thin text-sm pb-2.5\">\r\n            My part of this project was coding the whole game physic making it pleasant and natural for the player. I also coded the camera logic to value the environnement and the level design and some gameplay bricks        </p>\r\n        <p class=\"font-thin text-sm pb-2.5\">\r\n            On other points I did many juiciness contribution like animating the player, few screenshakes, screen transitions, and all the VFX.        </p>\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                I'm very proud of this project, we did exactly what we imagined for this project, so give it a try!             </p>\r\n        </div>\r\n    \r\n        <iframe frameborder=\"0\" src=\"https://itch.io/embed/2586073\" width=\"552\" height=\"167\"><a href=\"https://jun0h.itch.io/vampy-valentine\">Vampy Valentine by Dany, Ruenito, H_Emilie, Jules l'executable, Lefevre_Florian, Matteo Rnd, Camille_Domain, Bachien</a></iframe>    <div class=\"flex justify-center\">\r\n    \r\n    \r\n    </div>\r\n    \r\n    \r\n    </div>\r\n    </template>\r\n    \r\n    <style scoped>\r\n    \r\n    \r\n    .image-container {\r\n        display: flex;\r\n        gap: 10px; /* espace entre les images */\r\n    }\r\n    </style>\r\n    "
+        ]
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1730054951299,
+      "end": 1730054951299,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951300,
+      "end": 1730054951300,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951300,
+      "end": 1730054951300,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1730054951300,
+      "end": 1730054951300,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1730054951300,
+      "end": 1730054951300,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1730054951300,
+      "end": 1730054951300,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951300,
+      "end": 1730054951300,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1730054951300,
+      "end": 1730054951301,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1730054951301,
+      "end": 1730054951301,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1730054951301,
+      "end": 1730054951301,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1730054951301,
+      "end": 1730054951301,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1730054951301,
+      "end": 1730054951301,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1730054951301,
+      "end": 1730054951301,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1730054951301,
+      "end": 1730054951301,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1730054951301,
+      "end": 1730054951301,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1730054951301,
+      "end": 1730054951301,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1730054951301,
+      "end": 1730054951301,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1730054951301,
+      "end": 1730054951301,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1730054951301,
+      "end": 1730054951302,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1730054951301,
+      "end": 1730054951302,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1730054951302,
+      "end": 1730054951302,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1730054951302,
+      "end": 1730054951302,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1730054951302,
+      "end": 1730054951302,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1730054951302,
+      "end": 1730054951302,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1730054951302,
+      "end": 1730054951302,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1730054951302,
+      "end": 1730054951302,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1730054951302,
+      "end": 1730054951302,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1730054951302,
+      "end": 1730054951302,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1730054951302,
+      "end": 1730054951302,
+      "order": "normal"
+    }
+  ]
+}

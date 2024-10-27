@@ -21,6 +21,7 @@ const getImagePath = (iconImage) => {
     return mod.default;
 };
 
+
 onMounted(() => {
     let gridH = windowsStore.getFullscreenWindowHeight
     gridHeight.value = gridH.substring(0, gridH.length - 2) - 60 + "px"

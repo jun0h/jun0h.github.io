@@ -1,0 +1,266 @@
+{
+  "resolvedId": "C:/Users/dosor/Desktop/win95/views/Bio.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n<div>\r\n    <div class=\"flex justify-center\">\r\n\r\n        <img class=\"w-auto h-40\" src=\"../assets/Biography/me.png\" />\r\n    </div>\r\n\r\n    <h2 class=\"font-bold text-2xl py-5\">Dany Osorio Echeverry</h2>\r\n    <h4 class=\"text-gray-600 font-medium text-xs\" style=\"padding-bottom: 10px\">\r\n        Game Design & Programming Student @ ISART DIGITAL\r\n    </h4>\r\n    <h4 class=\"text-gray-600 font-medium text-xs\">Paris,France 📍</h4>\r\n    <div class=\"flex flex-wrap mt-5 gap-2 items-center\">\r\n        <h4 class=\"text-gray-600 font-medium text-xs\" style=\"padding-bottom: 10px; display: flex; gap: 5px;\">\r\n        <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Unity\" src=\"https://img.shields.io/badge/-Unity-000000?style=flat-square&logo=unity&logoColor=white\" />\r\n        <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Godot\" src=\"https://img.shields.io/badge/Godot%20Engine-478CBF?logo=godotengine&logoColor=fff&style=flat\" />\r\n        </h4>\r\n        <h4 class=\"text-gray-600 font-medium text-xs\" style=\"padding-bottom: 10px; display: flex; gap: 5px;\">\r\n            <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Switch\" src=\"https://img.shields.io/badge/Nintendo_Switch-E60012?style=for-the-badge&logo=nintendo-switch&logoColor=white\" />\r\n            <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Windows\" src=\"https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white\" />\r\n            <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Android\" src=\"https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white\" />\r\n            <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"IOS\" src=\"https://img.shields.io/badge/iOS-000000?&logo=apple&logoColor=white\" />\r\n        </h4>\r\n        <h4 class=\"text-gray-600 font-medium text-xs\" style=\"padding-bottom: 10px; display: flex; gap: 5px;\">\r\n\r\n        <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Git\" src=\"https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff\" />\r\n        <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"VS\" src=\"https://custom-icon-badges.demolab.com/badge/Visual%20Studio-5C2D91.svg?&logo=visual-studio&logoColor=white\" />\r\n        <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Figma\" src=\"https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white\" />\r\n        <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Photoshop\" src=\"https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?logo=Adobe%20Photoshop&logoColor=black\" />\r\n        <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Blender\" src=\"https://img.shields.io/badge/Blender-%23F5792A.svg?logo=blender&logoColor=white\" />\r\n        <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Figma\" src=\"https://img.shields.io/badge/Trello-0052CC?logo=trello&logoColor=fff\" />\r\n\r\n\r\n\r\n\r\n        </h4>\r\n        <h4 class=\"text-gray-600 font-medium text-xs\" style=\"padding-bottom: 10px; display: flex; gap: 5px;\">\r\n\r\n            <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"HTML/CSS\" src=\"https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white\" />\r\n            <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"CSS\" src=\"https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff\" />\r\n\r\n            <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Python\" src=\"https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff\" />\r\n            <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"C#\" src=\"https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white\" />\r\n            <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"HLSL\" src=\"https://img.shields.io/badge/-HLSL-8c5aee\" />\r\n            <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"GLSL\" src=\"https://img.shields.io/badge/-GLSL-8c5aee\" />\r\n\r\n\r\n\r\n\r\n\r\n        </h4>\r\n        <h4 class=\"text-gray-600 font-medium text-xs\" style=\"padding-bottom: 10px; display: flex; gap: 5px;\">\r\n\r\n        <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Vue\" src=\"https://img.shields.io/badge/-UI-61b083\" />\r\n        <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Flask\" src=\"https://img.shields.io/badge/-UX-406893\" />\r\n        <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"MongoDB\" src=\"https://img.shields.io/badge/-Game Design-4ca158\" />\r\n        <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"SQLite\" src=\"https://img.shields.io/badge/-Level Design-64a2c9\" />\r\n        </h4>\r\n    </div>\r\n    <div class=\"pt-7\">\r\n        <h3 class=\"underline font-bold text-md pb-1\">About Me</h3>\r\n        <p class=\"font-thin text-sm pb-2.5\">\r\n            I’m a {{ new Date().getFullYear() - 2003 }} year old Gameplay Programmer, currently student on third year at ISART Digital.\r\n        </p>\r\n        <p class=\"font-thin text-sm pb-2.5\">\r\n            I specialize in C# Scripting on Unity and Godot. Prototyping all sorts of features, from basic character behaviours to sound implementation systems.        \r\n        </p>\r\n        <p class=\"font-thin text-sm pb-2.5\">\r\n            I have a strong passion for game design and level design, always looking for new ways to improve the player experience.\r\n\r\n    </p>\r\n\r\n    <div>\r\n    <h1>What's Next?</h1>\r\n    <p>Current project : Survival Tower Defense on Nintendo Switch</p>\r\n  </div>\r\n    </div>\r\n\r\n\r\n\r\n\r\n\r\n</div>\r\n</template>\r\n",
+      "start": 1730054950960,
+      "end": 1730054951148,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1730054951148,
+      "end": 1730054951148,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1730054951148,
+      "end": 1730054951148,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1730054951148,
+      "end": 1730054951148,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1730054951148,
+      "end": 1730054951148,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1730054951148,
+      "end": 1730054951148,
+      "order": "pre"
+    },
+    {
+      "name": "server-only-component-transform",
+      "start": 1730054951148,
+      "end": 1730054951148,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1730054951148,
+      "end": 1730054951148,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1730054951148,
+      "end": 1730054951148,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1730054951148,
+      "end": 1730054951148,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1730054951148,
+      "end": 1730054951148,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate } from \"vue/server-renderer\"\nimport _imports_0 from '../assets/Biography/me.png'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  _push(`<div${\n    _ssrRenderAttrs(_attrs)\n  }><div class=\"flex justify-center\"><img class=\"w-auto h-40\"${\n    _ssrRenderAttr(\"src\", _imports_0)\n  }></div><h2 class=\"font-bold text-2xl py-5\">Dany Osorio Echeverry</h2><h4 class=\"text-gray-600 font-medium text-xs\" style=\"${\n    _ssrRenderStyle({\"padding-bottom\":\"10px\"})\n  }\"> Game Design &amp; Programming Student @ ISART DIGITAL </h4><h4 class=\"text-gray-600 font-medium text-xs\">Paris,France 📍</h4><div class=\"flex flex-wrap mt-5 gap-2 items-center\"><h4 class=\"text-gray-600 font-medium text-xs\" style=\"${\n    _ssrRenderStyle({\"padding-bottom\":\"10px\",\"display\":\"flex\",\"gap\":\"5px\"})\n  }\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Unity\" src=\"https://img.shields.io/badge/-Unity-000000?style=flat-square&amp;logo=unity&amp;logoColor=white\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Godot\" src=\"https://img.shields.io/badge/Godot%20Engine-478CBF?logo=godotengine&amp;logoColor=fff&amp;style=flat\"></h4><h4 class=\"text-gray-600 font-medium text-xs\" style=\"${\n    _ssrRenderStyle({\"padding-bottom\":\"10px\",\"display\":\"flex\",\"gap\":\"5px\"})\n  }\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Switch\" src=\"https://img.shields.io/badge/Nintendo_Switch-E60012?style=for-the-badge&amp;logo=nintendo-switch&amp;logoColor=white\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Windows\" src=\"https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&amp;logoColor=white\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Android\" src=\"https://img.shields.io/badge/Android-3DDC84?logo=android&amp;logoColor=white\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"IOS\" src=\"https://img.shields.io/badge/iOS-000000?&amp;logo=apple&amp;logoColor=white\"></h4><h4 class=\"text-gray-600 font-medium text-xs\" style=\"${\n    _ssrRenderStyle({\"padding-bottom\":\"10px\",\"display\":\"flex\",\"gap\":\"5px\"})\n  }\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Git\" src=\"https://img.shields.io/badge/Git-F05032?logo=git&amp;logoColor=fff\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"VS\" src=\"https://custom-icon-badges.demolab.com/badge/Visual%20Studio-5C2D91.svg?&amp;logo=visual-studio&amp;logoColor=white\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Figma\" src=\"https://img.shields.io/badge/Figma-F24E1E?logo=figma&amp;logoColor=white\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Photoshop\" src=\"https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?logo=Adobe%20Photoshop&amp;logoColor=black\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Blender\" src=\"https://img.shields.io/badge/Blender-%23F5792A.svg?logo=blender&amp;logoColor=white\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Figma\" src=\"https://img.shields.io/badge/Trello-0052CC?logo=trello&amp;logoColor=fff\"></h4><h4 class=\"text-gray-600 font-medium text-xs\" style=\"${\n    _ssrRenderStyle({\"padding-bottom\":\"10px\",\"display\":\"flex\",\"gap\":\"5px\"})\n  }\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"HTML/CSS\" src=\"https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&amp;logoColor=white\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"CSS\" src=\"https://img.shields.io/badge/CSS-1572B6?logo=css3&amp;logoColor=fff\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Python\" src=\"https://img.shields.io/badge/Python-3776AB?logo=python&amp;logoColor=fff\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"C#\" src=\"https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&amp;logoColor=white\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"HLSL\" src=\"https://img.shields.io/badge/-HLSL-8c5aee\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"GLSL\" src=\"https://img.shields.io/badge/-GLSL-8c5aee\"></h4><h4 class=\"text-gray-600 font-medium text-xs\" style=\"${\n    _ssrRenderStyle({\"padding-bottom\":\"10px\",\"display\":\"flex\",\"gap\":\"5px\"})\n  }\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Vue\" src=\"https://img.shields.io/badge/-UI-61b083\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Flask\" src=\"https://img.shields.io/badge/-UX-406893\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"MongoDB\" src=\"https://img.shields.io/badge/-Game Design-4ca158\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"SQLite\" src=\"https://img.shields.io/badge/-Level Design-64a2c9\"></h4></div><div class=\"pt-7\"><h3 class=\"underline font-bold text-md pb-1\">About Me</h3><p class=\"font-thin text-sm pb-2.5\"> I’m a ${\n    _ssrInterpolate(new Date().getFullYear() - 2003)\n  } year old Gameplay Programmer, currently student on third year at ISART Digital. </p><p class=\"font-thin text-sm pb-2.5\"> I specialize in C# Scripting on Unity and Godot. Prototyping all sorts of features, from basic character behaviours to sound implementation systems. </p><p class=\"font-thin text-sm pb-2.5\"> I have a strong passion for game design and level design, always looking for new ways to improve the player experience. </p><div><h1>What&#39;s Next?</h1><p>Current project : Survival Tower Defense on Nintendo Switch</p></div></div></div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"views/Bio.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
+      "start": 1730054951148,
+      "end": 1730054951151,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/dosor/Desktop/win95/views/Bio.vue"
+        ],
+        "names": [],
+        "mappings": ";OAIiC,UAAgC;;;;EAJjE;IAAA,gBAAA;;IAAA,eAIiC,KAAgC,EAAhC,UAAgC;;IAJjE,gBAQkD,yBAA4B;;IAR9E,gBAasD,sDAAsD;;IAb5G,gBAiBsD,sDAAsD;;IAjB5G,gBAuBsD,sDAAsD;;IAvB5G,gBAoCsD,sDAAsD;;IApC5G,gBAmDsD,sDAAsD;;IAnD5G,oBA8DyB,IAAI,GAAG,WAAW",
+        "sourcesContent": [
+          "<template>\r\n<div>\r\n    <div class=\"flex justify-center\">\r\n\r\n        <img class=\"w-auto h-40\" src=\"../assets/Biography/me.png\" />\r\n    </div>\r\n\r\n    <h2 class=\"font-bold text-2xl py-5\">Dany Osorio Echeverry</h2>\r\n    <h4 class=\"text-gray-600 font-medium text-xs\" style=\"padding-bottom: 10px\">\r\n        Game Design & Programming Student @ ISART DIGITAL\r\n    </h4>\r\n    <h4 class=\"text-gray-600 font-medium text-xs\">Paris,France 📍</h4>\r\n    <div class=\"flex flex-wrap mt-5 gap-2 items-center\">\r\n        <h4 class=\"text-gray-600 font-medium text-xs\" style=\"padding-bottom: 10px; display: flex; gap: 5px;\">\r\n        <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Unity\" src=\"https://img.shields.io/badge/-Unity-000000?style=flat-square&logo=unity&logoColor=white\" />\r\n        <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Godot\" src=\"https://img.shields.io/badge/Godot%20Engine-478CBF?logo=godotengine&logoColor=fff&style=flat\" />\r\n        </h4>\r\n        <h4 class=\"text-gray-600 font-medium text-xs\" style=\"padding-bottom: 10px; display: flex; gap: 5px;\">\r\n            <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Switch\" src=\"https://img.shields.io/badge/Nintendo_Switch-E60012?style=for-the-badge&logo=nintendo-switch&logoColor=white\" />\r\n            <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Windows\" src=\"https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white\" />\r\n            <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Android\" src=\"https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white\" />\r\n            <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"IOS\" src=\"https://img.shields.io/badge/iOS-000000?&logo=apple&logoColor=white\" />\r\n        </h4>\r\n        <h4 class=\"text-gray-600 font-medium text-xs\" style=\"padding-bottom: 10px; display: flex; gap: 5px;\">\r\n\r\n        <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Git\" src=\"https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff\" />\r\n        <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"VS\" src=\"https://custom-icon-badges.demolab.com/badge/Visual%20Studio-5C2D91.svg?&logo=visual-studio&logoColor=white\" />\r\n        <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Figma\" src=\"https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white\" />\r\n        <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Photoshop\" src=\"https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?logo=Adobe%20Photoshop&logoColor=black\" />\r\n        <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Blender\" src=\"https://img.shields.io/badge/Blender-%23F5792A.svg?logo=blender&logoColor=white\" />\r\n        <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Figma\" src=\"https://img.shields.io/badge/Trello-0052CC?logo=trello&logoColor=fff\" />\r\n\r\n\r\n\r\n\r\n        </h4>\r\n        <h4 class=\"text-gray-600 font-medium text-xs\" style=\"padding-bottom: 10px; display: flex; gap: 5px;\">\r\n\r\n            <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"HTML/CSS\" src=\"https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white\" />\r\n            <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"CSS\" src=\"https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff\" />\r\n\r\n            <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Python\" src=\"https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff\" />\r\n            <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"C#\" src=\"https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white\" />\r\n            <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"HLSL\" src=\"https://img.shields.io/badge/-HLSL-8c5aee\" />\r\n            <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"GLSL\" src=\"https://img.shields.io/badge/-GLSL-8c5aee\" />\r\n\r\n\r\n\r\n\r\n\r\n        </h4>\r\n        <h4 class=\"text-gray-600 font-medium text-xs\" style=\"padding-bottom: 10px; display: flex; gap: 5px;\">\r\n\r\n        <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Vue\" src=\"https://img.shields.io/badge/-UI-61b083\" />\r\n        <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Flask\" src=\"https://img.shields.io/badge/-UX-406893\" />\r\n        <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"MongoDB\" src=\"https://img.shields.io/badge/-Game Design-4ca158\" />\r\n        <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"SQLite\" src=\"https://img.shields.io/badge/-Level Design-64a2c9\" />\r\n        </h4>\r\n    </div>\r\n    <div class=\"pt-7\">\r\n        <h3 class=\"underline font-bold text-md pb-1\">About Me</h3>\r\n        <p class=\"font-thin text-sm pb-2.5\">\r\n            I’m a {{ new Date().getFullYear() - 2003 }} year old Gameplay Programmer, currently student on third year at ISART Digital.\r\n        </p>\r\n        <p class=\"font-thin text-sm pb-2.5\">\r\n            I specialize in C# Scripting on Unity and Godot. Prototyping all sorts of features, from basic character behaviours to sound implementation systems.        \r\n        </p>\r\n        <p class=\"font-thin text-sm pb-2.5\">\r\n            I have a strong passion for game design and level design, always looking for new ways to improve the player experience.\r\n\r\n    </p>\r\n\r\n    <div>\r\n    <h1>What's Next?</h1>\r\n    <p>Current project : Survival Tower Defense on Nintendo Switch</p>\r\n  </div>\r\n    </div>\r\n\r\n\r\n\r\n\r\n\r\n</div>\r\n</template>\r\n"
+        ]
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1730054951151,
+      "end": 1730054951151,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951151,
+      "end": 1730054951151,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951151,
+      "end": 1730054951151,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1730054951151,
+      "end": 1730054951151,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1730054951151,
+      "end": 1730054951151,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1730054951151,
+      "end": 1730054951151,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951151,
+      "end": 1730054951151,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1730054951151,
+      "end": 1730054951152,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "result": "const _sfc_main = {};\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate } from \"vue/server-renderer\";\nimport _imports_0 from \"../assets/Biography/me.png\";\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  _push(`<div${_ssrRenderAttrs(_attrs)}><div class=\"flex justify-center\"><img class=\"w-auto h-40\"${_ssrRenderAttr(\"src\", _imports_0)}></div><h2 class=\"font-bold text-2xl py-5\">Dany Osorio Echeverry</h2><h4 class=\"text-gray-600 font-medium text-xs\" style=\"${_ssrRenderStyle({ \"padding-bottom\": \"10px\" })}\"> Game Design &amp; Programming Student @ ISART DIGITAL </h4><h4 class=\"text-gray-600 font-medium text-xs\">Paris,France 📍</h4><div class=\"flex flex-wrap mt-5 gap-2 items-center\"><h4 class=\"text-gray-600 font-medium text-xs\" style=\"${_ssrRenderStyle({ \"padding-bottom\": \"10px\", \"display\": \"flex\", \"gap\": \"5px\" })}\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Unity\" src=\"https://img.shields.io/badge/-Unity-000000?style=flat-square&amp;logo=unity&amp;logoColor=white\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Godot\" src=\"https://img.shields.io/badge/Godot%20Engine-478CBF?logo=godotengine&amp;logoColor=fff&amp;style=flat\"></h4><h4 class=\"text-gray-600 font-medium text-xs\" style=\"${_ssrRenderStyle({ \"padding-bottom\": \"10px\", \"display\": \"flex\", \"gap\": \"5px\" })}\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Switch\" src=\"https://img.shields.io/badge/Nintendo_Switch-E60012?style=for-the-badge&amp;logo=nintendo-switch&amp;logoColor=white\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Windows\" src=\"https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&amp;logoColor=white\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Android\" src=\"https://img.shields.io/badge/Android-3DDC84?logo=android&amp;logoColor=white\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"IOS\" src=\"https://img.shields.io/badge/iOS-000000?&amp;logo=apple&amp;logoColor=white\"></h4><h4 class=\"text-gray-600 font-medium text-xs\" style=\"${_ssrRenderStyle({ \"padding-bottom\": \"10px\", \"display\": \"flex\", \"gap\": \"5px\" })}\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Git\" src=\"https://img.shields.io/badge/Git-F05032?logo=git&amp;logoColor=fff\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"VS\" src=\"https://custom-icon-badges.demolab.com/badge/Visual%20Studio-5C2D91.svg?&amp;logo=visual-studio&amp;logoColor=white\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Figma\" src=\"https://img.shields.io/badge/Figma-F24E1E?logo=figma&amp;logoColor=white\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Photoshop\" src=\"https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?logo=Adobe%20Photoshop&amp;logoColor=black\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Blender\" src=\"https://img.shields.io/badge/Blender-%23F5792A.svg?logo=blender&amp;logoColor=white\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Figma\" src=\"https://img.shields.io/badge/Trello-0052CC?logo=trello&amp;logoColor=fff\"></h4><h4 class=\"text-gray-600 font-medium text-xs\" style=\"${_ssrRenderStyle({ \"padding-bottom\": \"10px\", \"display\": \"flex\", \"gap\": \"5px\" })}\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"HTML/CSS\" src=\"https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&amp;logoColor=white\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"CSS\" src=\"https://img.shields.io/badge/CSS-1572B6?logo=css3&amp;logoColor=fff\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Python\" src=\"https://img.shields.io/badge/Python-3776AB?logo=python&amp;logoColor=fff\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"C#\" src=\"https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&amp;logoColor=white\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"HLSL\" src=\"https://img.shields.io/badge/-HLSL-8c5aee\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"GLSL\" src=\"https://img.shields.io/badge/-GLSL-8c5aee\"></h4><h4 class=\"text-gray-600 font-medium text-xs\" style=\"${_ssrRenderStyle({ \"padding-bottom\": \"10px\", \"display\": \"flex\", \"gap\": \"5px\" })}\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Vue\" src=\"https://img.shields.io/badge/-UI-61b083\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Flask\" src=\"https://img.shields.io/badge/-UX-406893\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"MongoDB\" src=\"https://img.shields.io/badge/-Game Design-4ca158\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"SQLite\" src=\"https://img.shields.io/badge/-Level Design-64a2c9\"></h4></div><div class=\"pt-7\"><h3 class=\"underline font-bold text-md pb-1\">About Me</h3><p class=\"font-thin text-sm pb-2.5\"> I’m a ${_ssrInterpolate((/* @__PURE__ */ new Date()).getFullYear() - 2003)} year old Gameplay Programmer, currently student on third year at ISART Digital. </p><p class=\"font-thin text-sm pb-2.5\"> I specialize in C# Scripting on Unity and Godot. Prototyping all sorts of features, from basic character behaviours to sound implementation systems. </p><p class=\"font-thin text-sm pb-2.5\"> I have a strong passion for game design and level design, always looking for new ways to improve the player experience. </p><div><h1>What&#39;s Next?</h1><p>Current project : Survival Tower Defense on Nintendo Switch</p></div></div></div>`);\n}\nimport { useSSRContext as __vite_useSSRContext } from \"vue\";\nconst _sfc_setup = _sfc_main.setup;\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext();\n  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add(\"views/Bio.vue\");\n  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;\n};\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"ssrRender\", _sfc_ssrRender]]);\n",
+      "start": 1730054951152,
+      "end": 1730054951291,
+      "order": "normal",
+      "sourcemaps": "{\n  \"version\": 3,\n  \"sources\": [\"C:/Users/dosor/Desktop/win95/views/Bio.vue\"],\n  \"sourcesContent\": [\"const _sfc_main = {}\\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate } from \\\"vue/server-renderer\\\"\\nimport _imports_0 from '../assets/Biography/me.png'\\n\\n\\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\\n  _push(`<div${\\n    _ssrRenderAttrs(_attrs)\\n  }><div class=\\\"flex justify-center\\\"><img class=\\\"w-auto h-40\\\"${\\n    _ssrRenderAttr(\\\"src\\\", _imports_0)\\n  }></div><h2 class=\\\"font-bold text-2xl py-5\\\">Dany Osorio Echeverry</h2><h4 class=\\\"text-gray-600 font-medium text-xs\\\" style=\\\"${\\n    _ssrRenderStyle({\\\"padding-bottom\\\":\\\"10px\\\"})\\n  }\\\"> Game Design &amp; Programming Student @ ISART DIGITAL </h4><h4 class=\\\"text-gray-600 font-medium text-xs\\\">Paris,France 📍</h4><div class=\\\"flex flex-wrap mt-5 gap-2 items-center\\\"><h4 class=\\\"text-gray-600 font-medium text-xs\\\" style=\\\"${\\n    _ssrRenderStyle({\\\"padding-bottom\\\":\\\"10px\\\",\\\"display\\\":\\\"flex\\\",\\\"gap\\\":\\\"5px\\\"})\\n  }\\\"><img class=\\\"w-auto h-5 rounded-none text-xs\\\" alt=\\\"Unity\\\" src=\\\"https://img.shields.io/badge/-Unity-000000?style=flat-square&amp;logo=unity&amp;logoColor=white\\\"><img class=\\\"w-auto h-5 rounded-none text-xs\\\" alt=\\\"Godot\\\" src=\\\"https://img.shields.io/badge/Godot%20Engine-478CBF?logo=godotengine&amp;logoColor=fff&amp;style=flat\\\"></h4><h4 class=\\\"text-gray-600 font-medium text-xs\\\" style=\\\"${\\n    _ssrRenderStyle({\\\"padding-bottom\\\":\\\"10px\\\",\\\"display\\\":\\\"flex\\\",\\\"gap\\\":\\\"5px\\\"})\\n  }\\\"><img class=\\\"w-auto h-5 rounded-none text-xs\\\" alt=\\\"Switch\\\" src=\\\"https://img.shields.io/badge/Nintendo_Switch-E60012?style=for-the-badge&amp;logo=nintendo-switch&amp;logoColor=white\\\"><img class=\\\"w-auto h-5 rounded-none text-xs\\\" alt=\\\"Windows\\\" src=\\\"https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&amp;logoColor=white\\\"><img class=\\\"w-auto h-5 rounded-none text-xs\\\" alt=\\\"Android\\\" src=\\\"https://img.shields.io/badge/Android-3DDC84?logo=android&amp;logoColor=white\\\"><img class=\\\"w-auto h-5 rounded-none text-xs\\\" alt=\\\"IOS\\\" src=\\\"https://img.shields.io/badge/iOS-000000?&amp;logo=apple&amp;logoColor=white\\\"></h4><h4 class=\\\"text-gray-600 font-medium text-xs\\\" style=\\\"${\\n    _ssrRenderStyle({\\\"padding-bottom\\\":\\\"10px\\\",\\\"display\\\":\\\"flex\\\",\\\"gap\\\":\\\"5px\\\"})\\n  }\\\"><img class=\\\"w-auto h-5 rounded-none text-xs\\\" alt=\\\"Git\\\" src=\\\"https://img.shields.io/badge/Git-F05032?logo=git&amp;logoColor=fff\\\"><img class=\\\"w-auto h-5 rounded-none text-xs\\\" alt=\\\"VS\\\" src=\\\"https://custom-icon-badges.demolab.com/badge/Visual%20Studio-5C2D91.svg?&amp;logo=visual-studio&amp;logoColor=white\\\"><img class=\\\"w-auto h-5 rounded-none text-xs\\\" alt=\\\"Figma\\\" src=\\\"https://img.shields.io/badge/Figma-F24E1E?logo=figma&amp;logoColor=white\\\"><img class=\\\"w-auto h-5 rounded-none text-xs\\\" alt=\\\"Photoshop\\\" src=\\\"https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?logo=Adobe%20Photoshop&amp;logoColor=black\\\"><img class=\\\"w-auto h-5 rounded-none text-xs\\\" alt=\\\"Blender\\\" src=\\\"https://img.shields.io/badge/Blender-%23F5792A.svg?logo=blender&amp;logoColor=white\\\"><img class=\\\"w-auto h-5 rounded-none text-xs\\\" alt=\\\"Figma\\\" src=\\\"https://img.shields.io/badge/Trello-0052CC?logo=trello&amp;logoColor=fff\\\"></h4><h4 class=\\\"text-gray-600 font-medium text-xs\\\" style=\\\"${\\n    _ssrRenderStyle({\\\"padding-bottom\\\":\\\"10px\\\",\\\"display\\\":\\\"flex\\\",\\\"gap\\\":\\\"5px\\\"})\\n  }\\\"><img class=\\\"w-auto h-5 rounded-none text-xs\\\" alt=\\\"HTML/CSS\\\" src=\\\"https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&amp;logoColor=white\\\"><img class=\\\"w-auto h-5 rounded-none text-xs\\\" alt=\\\"CSS\\\" src=\\\"https://img.shields.io/badge/CSS-1572B6?logo=css3&amp;logoColor=fff\\\"><img class=\\\"w-auto h-5 rounded-none text-xs\\\" alt=\\\"Python\\\" src=\\\"https://img.shields.io/badge/Python-3776AB?logo=python&amp;logoColor=fff\\\"><img class=\\\"w-auto h-5 rounded-none text-xs\\\" alt=\\\"C#\\\" src=\\\"https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&amp;logoColor=white\\\"><img class=\\\"w-auto h-5 rounded-none text-xs\\\" alt=\\\"HLSL\\\" src=\\\"https://img.shields.io/badge/-HLSL-8c5aee\\\"><img class=\\\"w-auto h-5 rounded-none text-xs\\\" alt=\\\"GLSL\\\" src=\\\"https://img.shields.io/badge/-GLSL-8c5aee\\\"></h4><h4 class=\\\"text-gray-600 font-medium text-xs\\\" style=\\\"${\\n    _ssrRenderStyle({\\\"padding-bottom\\\":\\\"10px\\\",\\\"display\\\":\\\"flex\\\",\\\"gap\\\":\\\"5px\\\"})\\n  }\\\"><img class=\\\"w-auto h-5 rounded-none text-xs\\\" alt=\\\"Vue\\\" src=\\\"https://img.shields.io/badge/-UI-61b083\\\"><img class=\\\"w-auto h-5 rounded-none text-xs\\\" alt=\\\"Flask\\\" src=\\\"https://img.shields.io/badge/-UX-406893\\\"><img class=\\\"w-auto h-5 rounded-none text-xs\\\" alt=\\\"MongoDB\\\" src=\\\"https://img.shields.io/badge/-Game Design-4ca158\\\"><img class=\\\"w-auto h-5 rounded-none text-xs\\\" alt=\\\"SQLite\\\" src=\\\"https://img.shields.io/badge/-Level Design-64a2c9\\\"></h4></div><div class=\\\"pt-7\\\"><h3 class=\\\"underline font-bold text-md pb-1\\\">About Me</h3><p class=\\\"font-thin text-sm pb-2.5\\\"> I’m a ${\\n    _ssrInterpolate(new Date().getFullYear() - 2003)\\n  } year old Gameplay Programmer, currently student on third year at ISART Digital. </p><p class=\\\"font-thin text-sm pb-2.5\\\"> I specialize in C# Scripting on Unity and Godot. Prototyping all sorts of features, from basic character behaviours to sound implementation systems. </p><p class=\\\"font-thin text-sm pb-2.5\\\"> I have a strong passion for game design and level design, always looking for new ways to improve the player experience. </p><div><h1>What&#39;s Next?</h1><p>Current project : Survival Tower Defense on Nintendo Switch</p></div></div></div>`)\\n}\\n\\n\\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\\nconst _sfc_setup = _sfc_main.setup\\n_sfc_main.setup = (props, ctx) => {\\n  const ssrContext = __vite_useSSRContext()\\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\\\"views/Bio.vue\\\")\\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\\n}\\nimport _export_sfc from '\\u0000plugin-vue:export-helper'\\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])\"],\n  \"mappings\": \"AAAA,MAAM,YAAY,CAAC;AACnB,SAAS,iBAAiB,gBAAgB,kBAAkB,iBAAiB,kBAAkB,iBAAiB,kBAAkB,uBAAuB;AACzJ,OAAO,gBAAgB;AAGvB,SAAS,eAAe,MAAM,OAAO,SAAS,QAAQ;AACpD,QAAM,OACJ,gBAAgB,MAAM,CACxB,6DACE,eAAe,OAAO,UAAU,CAClC,6HACE,gBAAgB,EAAC,kBAAiB,OAAM,CAAC,CAC3C,4OACE,gBAAgB,EAAC,kBAAiB,QAAO,WAAU,QAAO,OAAM,MAAK,CAAC,CACxE,kYACE,gBAAgB,EAAC,kBAAiB,QAAO,WAAU,QAAO,OAAM,MAAK,CAAC,CACxE,2qBACE,gBAAgB,EAAC,kBAAiB,QAAO,WAAU,QAAO,OAAM,MAAK,CAAC,CACxE,w7BACE,gBAAgB,EAAC,kBAAiB,QAAO,WAAU,QAAO,OAAM,MAAK,CAAC,CACxE,q0BACE,gBAAgB,EAAC,kBAAiB,QAAO,WAAU,QAAO,OAAM,MAAK,CAAC,CACxE,ujBACE,iBAAgB,oBAAI,KAAK,GAAE,YAAY,IAAI,IAAI,CACjD,wiBAAwiB;AAC1iB;AAGA,SAAS,iBAAiB,4BAA4B;AACtD,MAAM,aAAa,UAAU;AAC7B,UAAU,QAAQ,CAAC,OAAO,QAAQ;AAChC,QAAM,aAAa,qBAAqB;AACvC,GAAC,WAAW,YAAY,WAAW,UAAU,oBAAI,IAAI,IAAI,IAAI,eAAe;AAC7E,SAAO,aAAa,WAAW,OAAO,GAAG,IAAI;AAC/C;AACA,OAAO,iBAAiB;AACxB,eAA4B,4BAAY,WAAW,CAAC,CAAC,aAAY,cAAc,CAAC,CAAC;\",\n  \"names\": []\n}\n"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1730054951291,
+      "end": 1730054951291,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1730054951291,
+      "end": 1730054951291,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1730054951291,
+      "end": 1730054951291,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1730054951291,
+      "end": 1730054951291,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1730054951291,
+      "end": 1730054951291,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1730054951291,
+      "end": 1730054951291,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1730054951292,
+      "end": 1730054951295,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1730054951295,
+      "end": 1730054951295,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1730054951295,
+      "end": 1730054951296,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1730054951296,
+      "end": 1730054951297,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1730054951296,
+      "end": 1730054951297,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1730054951297,
+      "end": 1730054951297,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1730054951297,
+      "end": 1730054951297,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1730054951297,
+      "end": 1730054951297,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1730054951297,
+      "end": 1730054951297,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1730054951297,
+      "end": 1730054951297,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1730054951297,
+      "end": 1730054951297,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1730054951297,
+      "end": 1730054951297,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1730054951297,
+      "end": 1730054951297,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1730054951297,
+      "end": 1730054951297,
+      "order": "normal"
+    }
+  ]
+}

@@ -36,8 +36,8 @@
         <iframe frameborder="0" src="https://itch.io/embed/2518582" width="552" height="167"><a href="https://jun0h.itch.io/pack-rush">Pack &amp; Rush by Dany</a></iframe>
     <div class="flex justify-center">
     
-        <img class="w-auto h-40" src="@/assets\GameAssets\PackRush/2.png">
-        <img class="w-auto h-40" src="@/assets\GameAssets\PackRush/3.png">
+        <img class="w-auto h-40" src="../assets\GameAssets\PackRush/2.png">
+        <img class="w-auto h-40" src="../assets\GameAssets\PackRush/3.png">
     
     
     </div>

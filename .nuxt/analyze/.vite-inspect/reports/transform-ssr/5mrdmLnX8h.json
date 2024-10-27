@@ -1,0 +1,264 @@
+{
+  "resolvedId": "C:/Users/dosor/Desktop/win95/views/Projects/Rewind.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <div>\r\n    \r\n    <!-- Titre -->\r\n        <h1>Rewind Robot</h1>\r\n        <h4 class=\"text-gray-600 font-medium text-xs\" style=\"padding-bottom: 10px; display: flex; gap: 5px;\">\r\n    <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Godot\" src=\"https://img.shields.io/badge/Made%20with-Godot-478CBF?style=flat&logo=godot%20engine&logoColor=white\" />\r\n    <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"C#\" src=\"https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white\" />\r\n</h4>\r\n    \r\n        <h4 class=\"text-gray-600 font-medium text-xs\">Done from January to March 2023</h4>\r\n        <div class=\"flex flex-wrap mt-5 gap-2 items-center\">\r\n        <img class=\"w-auto h-auto\" src=\"../assets\\GameAssets\\rewind\\01_TitleCard.png\">\r\n    \r\n    \r\n        </div>\r\n        <div class=\"pt-7\">\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                My second student project, this one was done in team of 4 programmers!\r\n            </p>\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                This game is a Sokoban, a puzzle game genre from Japan! We redesigned the game adding a special feature, which is the rewind. Basically you can rewind the whole level and a copy of yourself is going to repeat you past actions!            </p>\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                This project was very fun to do since the work was split, making easier for each one to focus on their chores.\r\n    \r\n        </p>\r\n        <p class=\"font-thin text-sm pb-2.5\">\r\n            As for me I did some the core gameplay of the player, so it's basics movements and collisions, the sound manager and then I focused on level design.    \r\n        </p>\r\n    \r\n        </div>\r\n        <div class=\"flex justify-center\">\r\n    \r\n            <iframe frameborder=\"0\" src=\"https://itch.io/embed/1977050\" width=\"552\" height=\"167\"><a href=\"https://jun0h.itch.io/rewind-robot\">Rewind Robot by Dany</a></iframe></div>\r\n    \r\n    <div class=\"flex justify-center\">\r\n    \r\n        <img class=\"w-auto h-40\" src=\"@/assets\\GameAssets\\rewind\\04_Level.png\">\r\n        <img class=\"w-auto h-40\" src=\"@/assets\\GameAssets\\rewind\\06_LevelRewind.png\">\r\n    \r\n    \r\n    </div>\r\n    \r\n    \r\n    </div>\r\n    </template>\r\n    \r\n    <style scoped>\r\n    \r\n    \r\n    .image-container {\r\n        display: flex;\r\n        gap: 10px; /* espace entre les images */\r\n    }\r\n    </style>\r\n    ",
+      "start": 1730054950967,
+      "end": 1730054951183,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1730054951183,
+      "end": 1730054951183,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1730054951183,
+      "end": 1730054951183,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1730054951183,
+      "end": 1730054951183,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1730054951183,
+      "end": 1730054951183,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1730054951183,
+      "end": 1730054951183,
+      "order": "pre"
+    },
+    {
+      "name": "server-only-component-transform",
+      "start": 1730054951183,
+      "end": 1730054951183,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1730054951183,
+      "end": 1730054951183,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1730054951184,
+      "end": 1730054951184,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1730054951184,
+      "end": 1730054951184,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1730054951184,
+      "end": 1730054951184,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { ssrRenderStyle as _ssrRenderStyle, ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '../assets/GameAssets/rewind/01_TitleCard.png'\nimport _imports_1 from '@/assets/GameAssets/rewind/04_Level.png'\nimport _imports_2 from '@/assets/GameAssets/rewind/06_LevelRewind.png'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  _push(`<div${\n    _ssrRenderAttrs(_attrs)\n  } data-v-e21d265a><h1 data-v-e21d265a>Rewind Robot</h1><h4 class=\"text-gray-600 font-medium text-xs\" style=\"${\n    _ssrRenderStyle({\"padding-bottom\":\"10px\",\"display\":\"flex\",\"gap\":\"5px\"})\n  }\" data-v-e21d265a><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Godot\" src=\"https://img.shields.io/badge/Made%20with-Godot-478CBF?style=flat&amp;logo=godot%20engine&amp;logoColor=white\" data-v-e21d265a><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"C#\" src=\"https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&amp;logoColor=white\" data-v-e21d265a></h4><h4 class=\"text-gray-600 font-medium text-xs\" data-v-e21d265a>Done from January to March 2023</h4><div class=\"flex flex-wrap mt-5 gap-2 items-center\" data-v-e21d265a><img class=\"w-auto h-auto\"${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } data-v-e21d265a></div><div class=\"pt-7\" data-v-e21d265a><p class=\"font-thin text-sm pb-2.5\" data-v-e21d265a> My second student project, this one was done in team of 4 programmers! </p><p class=\"font-thin text-sm pb-2.5\" data-v-e21d265a> This game is a Sokoban, a puzzle game genre from Japan! We redesigned the game adding a special feature, which is the rewind. Basically you can rewind the whole level and a copy of yourself is going to repeat you past actions! </p><p class=\"font-thin text-sm pb-2.5\" data-v-e21d265a> This project was very fun to do since the work was split, making easier for each one to focus on their chores. </p><p class=\"font-thin text-sm pb-2.5\" data-v-e21d265a> As for me I did some the core gameplay of the player, so it&#39;s basics movements and collisions, the sound manager and then I focused on level design. </p></div><div class=\"flex justify-center\" data-v-e21d265a><iframe frameborder=\"0\" src=\"https://itch.io/embed/1977050\" width=\"552\" height=\"167\" data-v-e21d265a><a href=\"https://jun0h.itch.io/rewind-robot\" data-v-e21d265a>Rewind Robot by Dany</a></iframe></div><div class=\"flex justify-center\" data-v-e21d265a><img class=\"w-auto h-40\"${\n    _ssrRenderAttr(\"src\", _imports_1)\n  } data-v-e21d265a><img class=\"w-auto h-40\"${\n    _ssrRenderAttr(\"src\", _imports_2)\n  } data-v-e21d265a></div></div>`)\n}\n\nimport \"C:/Users/dosor/Desktop/win95/views/Projects/Rewind.vue?vue&type=style&index=0&scoped=e21d265a&lang.css\"\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"views/Projects/Rewind.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',\"data-v-e21d265a\"]])",
+      "start": 1730054951184,
+      "end": 1730054951185,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/dosor/Desktop/win95/views/Projects/Rewind.vue"
+        ],
+        "names": [],
+        "mappings": ";OAYmC,UAAkD;OAyBpD,UAA6C;OAC7C,UAAmD;;;;EAtCpF;IAAA,gBAAA;;IAAA,gBAKsD,sDAAsD;;IAL5G,eAYmC,KAAkD,EAAlD,UAAkD;;IAZrF,eAqCiC,KAA6C,EAA7C,UAA6C;;IArC9E,eAsCiC,KAAmD,EAAnD,UAAmD",
+        "sourcesContent": [
+          "<template>\r\n    <div>\r\n    \r\n    <!-- Titre -->\r\n        <h1>Rewind Robot</h1>\r\n        <h4 class=\"text-gray-600 font-medium text-xs\" style=\"padding-bottom: 10px; display: flex; gap: 5px;\">\r\n    <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Godot\" src=\"https://img.shields.io/badge/Made%20with-Godot-478CBF?style=flat&logo=godot%20engine&logoColor=white\" />\r\n    <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"C#\" src=\"https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white\" />\r\n</h4>\r\n    \r\n        <h4 class=\"text-gray-600 font-medium text-xs\">Done from January to March 2023</h4>\r\n        <div class=\"flex flex-wrap mt-5 gap-2 items-center\">\r\n        <img class=\"w-auto h-auto\" src=\"../assets\\GameAssets\\rewind\\01_TitleCard.png\">\r\n    \r\n    \r\n        </div>\r\n        <div class=\"pt-7\">\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                My second student project, this one was done in team of 4 programmers!\r\n            </p>\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                This game is a Sokoban, a puzzle game genre from Japan! We redesigned the game adding a special feature, which is the rewind. Basically you can rewind the whole level and a copy of yourself is going to repeat you past actions!            </p>\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                This project was very fun to do since the work was split, making easier for each one to focus on their chores.\r\n    \r\n        </p>\r\n        <p class=\"font-thin text-sm pb-2.5\">\r\n            As for me I did some the core gameplay of the player, so it's basics movements and collisions, the sound manager and then I focused on level design.    \r\n        </p>\r\n    \r\n        </div>\r\n        <div class=\"flex justify-center\">\r\n    \r\n            <iframe frameborder=\"0\" src=\"https://itch.io/embed/1977050\" width=\"552\" height=\"167\"><a href=\"https://jun0h.itch.io/rewind-robot\">Rewind Robot by Dany</a></iframe></div>\r\n    \r\n    <div class=\"flex justify-center\">\r\n    \r\n        <img class=\"w-auto h-40\" src=\"@/assets\\GameAssets\\rewind\\04_Level.png\">\r\n        <img class=\"w-auto h-40\" src=\"@/assets\\GameAssets\\rewind\\06_LevelRewind.png\">\r\n    \r\n    \r\n    </div>\r\n    \r\n    \r\n    </div>\r\n    </template>\r\n    \r\n    <style scoped>\r\n    \r\n    \r\n    .image-container {\r\n        display: flex;\r\n        gap: 10px; /* espace entre les images */\r\n    }\r\n    </style>\r\n    "
+        ]
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1730054951185,
+      "end": 1730054951185,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951185,
+      "end": 1730054951185,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951185,
+      "end": 1730054951185,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1730054951185,
+      "end": 1730054951185,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1730054951185,
+      "end": 1730054951185,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1730054951185,
+      "end": 1730054951185,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951185,
+      "end": 1730054951185,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1730054951185,
+      "end": 1730054951186,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1730054951186,
+      "end": 1730054951186,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1730054951186,
+      "end": 1730054951186,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1730054951186,
+      "end": 1730054951186,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1730054951186,
+      "end": 1730054951186,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1730054951186,
+      "end": 1730054951186,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1730054951186,
+      "end": 1730054951186,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1730054951186,
+      "end": 1730054951186,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1730054951186,
+      "end": 1730054951186,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1730054951186,
+      "end": 1730054951186,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1730054951186,
+      "end": 1730054951186,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1730054951186,
+      "end": 1730054951187,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1730054951186,
+      "end": 1730054951187,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1730054951187,
+      "end": 1730054951187,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1730054951187,
+      "end": 1730054951187,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1730054951187,
+      "end": 1730054951187,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1730054951187,
+      "end": 1730054951187,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1730054951187,
+      "end": 1730054951187,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1730054951187,
+      "end": 1730054951187,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1730054951187,
+      "end": 1730054951187,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1730054951187,
+      "end": 1730054951187,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1730054951187,
+      "end": 1730054951187,
+      "order": "normal"
+    }
+  ]
+}

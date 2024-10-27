@@ -1,0 +1,209 @@
+{
+  "resolvedId": "C:/Users/dosor/Desktop/win95/assets/iPhone-Icons/itch.io-logo.png",
+  "transforms": [
+    {
+      "name": "vite:asset",
+      "result": "export default \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATwAAAE8CAMAAABq2/00AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAJ9QTFRF/yRJ/zJU/0Bg/1t3/3aO/5Gk/5+v/627/8jS/9Xd/+Pp//L0/////2iC/01r/0Bf/6Cv/5Kk/9Xc/05r/+To/3eN/4OY/626/3aM//Hz/zFU/7vG/8jR/3aN/1t2/9bd/+Po/6y7/7rG/4SZ/56v/1p2/z9f/6y6//H0/5Gj/z9g/2mC/4SY/56u/2iB/9bc/3WN/5+w/0xr/05s/7vH+pxbwgAADCxJREFUeJztnVtj4jgShW0Il3Riti/0eJNAxxMDQ5ieafby/3/bYoxBtmWpZNlSOXu+l35ooUjHupaqpCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoCAcjUbjE3dnJmemswvzK/efyjw8mlD66X2RZ/43puc/mf3xKCvH4lQe35oQGM8NJXDKWeV/+Naoic++5aHwxbdKUkZz37rQ+Mqw8X1b+laFynLhW6sq3xkPdjV+861WmS++9TCD1cA3MO1YqTeIabYMG/VmvpVoQ+xbtZxBasdEvYFqx0K9AY53BVPf2g1unhXxPGsMWjvP6g1cO6/qffddd3v+6Uu7b0Pazzbw5MlKMBqMHUXF0ouFKvwQ2p3Ue/Yg3ovvWnfFyr12g59obzifcte+a9wljqfc0QeYaG88uZ00PshkUfDV5aQxYGuAHIc2gg814OX8cKXdx1gdl3G22hus+VOFo4478l3PfnDTcQfiVmGKk43G2Hct+8JF0/uQI16GiwOhD7W3EHlyIJ7vOvYHxLMA4lkA8SyAeBZAPAsgngUQzwKIZwHEswDiWeBAvE/00rzSkxoZpw0SGxQhcSCegafA7/SkMT3p4+NbL0VwYdCbkkvzlNJLHtGTGiX+jd5RNg7E+0EuzRs96ZOJpcsk8ZbeUSIH4oXkkq/plVyZjAZvwYqa9Cmgt34n52fkEWdHtzqvgztyJU+JyYr8EYT0pC6gdsaVQRffGTToJKArcuqK1Fa6dSIetTjrgGyzz776hFjJc2JiERL6t07caEcszrk0REWyr05tevsdXZE1/Vs7anjEpd654EFCSZoPN0Sh3wOyIgn9W7sZ8TIOhEZyKQ2p5Ls8LWk3kNCLcPl+lG+d7JyJF/xJLw1hTf0e0AXZF/n+1Kf965I01Df/v91pFwTv1DoGobY9vV1zJbiu3Txgte0puSbVBoy8B07RqCd4+R403z15JudaqqXuq4g9UfNVHGunqWfJQ1qtXnm00aj33jZfpXrOtVPVM7mEJBUu+gdFG1nl7S4s0v6p6GH7YmSaXn6kmHK/XsfG/J9vzUp70O5Uz4byrC7lHj9OiqSNQhdj+uerj1JzeyryPWU8peYbfCkyPjQovXe2wCtzkBnL9sWNL6OlEBW3kEqyKgq+Fv1a19K013zPXr1FG5RLfc03c8S8BpdJ8/3DR/BUzqL6OffvRWHOoWmCp2+96Kt18X9nJ+ebLfLws5b2lm/uXHmLnFDlmxfia/NnWXlqdhcOv98KtI9vZQl/5aUTkm6FpI/J5pb24iAuegVHYlox3yKMQQhWbMw3CPJCCFEWYr77jV/pziyiySaepJE4vV20q3oMHrbpJK6mvTrXl2PAFpEk7S3mrRTqec233AkLi1gpRuWc72ZydLinMGP06/p9tTeuCYEJBI/0m4VQGygb/qKnZcRYPN7SFPzvB3pa8aOcxr21Mm3pTjp+1741EFajSRUhmWElEGupFCStLAJjhdbVtGwuj1Iyrp+qLpvOVtb1JfFroyDjegxDo9bjX/S0bAjX8iiNuaTkYSo/vH4by3KWSJdLEhqk7bq6HRKOp82bq2Vc0iSMZoq004p+4y/NiR/iKDQohERrr8zS7D7k2X1jmQvms0l+d/JMexT9MJ/mae/S2Vxr57t/KzK+J6ZN/+VbtQta0VjiW7Wcg28Z2sFjkfzNtwzt+Ldv3c4MNJKPwcb2hIGjBCd4rFsMHMk4weOmabKfBC8m+po5gO7tyAoXvox6Bhq9zOCy2mCwdw686WvmAEPxkjjOXpmJ45fV3l6C/etLnt/mxcDxPcPDzW8SDAq9f9uWDOXPpbMKU/abqJqbwa8TpyI1QfY3F4/AbkRkB+My0pOvwzv5YyQ9y0KD6g/beETadHqurHrTBkF6mCzDxX0Memhl3au8uLQOPlX+UpxVyw/N63QuRBtIJdV4D5o1Po2LhM4v64I/X4EbJIuU9nY/YoXPaN04VZ5FNzjYpCjiEW5GpKtHcIHVe1QyEY9gziN5/Gbq7ZPVS7yZpMfjcSsQHY/pZHNaGL7uiZkRPGlZiKc35xG9pZ9JyXa0oYrQkDkY9PTieTmt17vhD0I8L56XBHd5DuLpwgoSXwXT7Vw4mJJ1Vnhv47IurGMA4nnqtBkaEzd/8RKPJdOsV/iL57WE6uGYvXiJ37Ip5wz24nkuoHKxx128xHfhVE2Pu3jey6dqehxOvRULgsQ275G1F7tiwuVw6q0Qz7bhfVtaxwAoSsdcPMvNRRZjbPuom+LaB97iWV56MD7X+8kygr3ZGYS3eHZmi+tDknZvQzVPGazFS6yyFR7htFOv8ViZtXhWbkglpz+r6J3GfstaPJteW4nAslGvsd9yFs/mRL72FqKNek3zLWfxLFy4JO9IWqjXtEXjLF77FbL0Dc726jX5THMWr/UKueH90tbqNZ3KMxYvaZtf49uvrdVrWKwwFq/t9kLxbm5b9RoWK4zFa3n3q/LN4ZbqNSxWGIvXzoFLExDTbq/RYBzgK147d+nv0rys1ZMvVviK18pMS3C4avUsnrw98xWvTUAm5a3rVvY9+UdhK17SIiPas7mtbMvSr8JWvBYLlZD4UEObZ3ylEV5sxWuxUCFfDt9i0yw94WMrnvneTLnAK2M+GUmvQ+cqnvlCxei5ZvMpV7ZY4SqeuRH5PYu+Ox6P0Xa7k3ayaLHdbk8Jspg/86YnKyRX8eyOfqSOunZZynZoTMWzDOvqQTzZYoWpeJZxwH2IJ5nLmYpn6WbRh3iSHRpT8SzdLPoQT2JO5inevWWOfYgnMSfzFM/20o1exKubk3mKZ1vPXsSrL1Z4imebYy/i1c3JLMWzvnOjF/HqOzSW4ln7+oZpdlFKvlnLIm0zUusorNpihaV4PG71q1FbrHAQr/pFE98FaqK6WOEgXtUG4u4FMUOqixXvcQ5BXTwXL522ohqJxlE8DteVSKmakxmKx+NyMCkrfuJVegOHoKQGKusCDuNLZUlrspidzybRovVl7eHiLp2ZGCF+tC9pX5TFMzEiX1ZeD/fZPfDj8Yj0o3C0iO4ms7fiEniTxfMDO/HKvgwmRuS6F8Sn+/l8NptmO4o7gWyTMZ3N5vNPdcOSiXhlczIH8cord5Mhr5OrvU1GrvJ6nsN1SGXxTD5nJ7dTm3yt8qDHQbzy8snkl53cEWxieS2bpVgsSMUCGa3yDK+XlWNk8y/9RbNa9oT4OU3agZGHRTMmDajU1k3r2QviDGgyAhHeUaZg8ifFUTYxrGY/iOIZLZG7Ec9kpBB3Q7ZnfN0gimAwg3XUax8fDVxFxZUBj024OJC0/JkVJuOs8DMed8MLKhhszjpreI9PBlOGMMTweJVAMFYk9F91+BCEgQyCeBys8KUpjD4I/6c77Uw8RYWFHg/bmWANJYtHdX2nQXeQFyY3Dua8knEkof7mc10BGwivCucI3ZaDUaU0/1MnDAPXdxrUeEhhN8TBLhCU5n9a/9HG55lDi+gTjRg2Ne4QoS+Qhu4etCOqJ1gQE6sqd4cwClPm/877bA6l5wrn3jw2GIar5Oor3t0x1Y8ZwhzPY41ctlXoVk+SF787QxsQKdpxeKyRy7aKJ2UF+mt2Oarn5SsxqTyWeZVTDMXnDxUvc3fEUiFfOZ6XjSNcSZOmN9vH/+1dujOx9DH60+BS/vP9qWFI5TBimVZj2Ud3irfjO2cZr6sFqD1Hz2WylbnpP8zfppPzC+/plPDCe/ecCpD//ey4XFIAHm+MZgzwbWUOLlI5A3xPns18QX+xkA2Jb8UEBvc+MI8DjJzBDXp8hryG2yM4w8SYl9PyjVpf8FnlZXTiLeYOTr1WeX89R1j1WtX99QzhFqQ0qHUys4YXBCYPuXuGW8Mb0qhHfDHWKT99i0KF11R7wfhJeD94fHxSxSHarPa+tVGxX22ODPvsjcU2feEn4f41TiPWugk8b6NJvCI/EN8fySqeHBcsQi6MOYmYnlR0LWPy+nLSLFoMpa3peN5tt8d0sjkp+Zp03q33SbJ6ieNJmik2zHZmwm53vcZyE8fxyyojyZE2ppzXLNkpfbzJb17Zbhe7/wO1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQOf8D7GLEwGtavrPAAAAAElFTkSuQmCC\"",
+      "start": 1730054948943,
+      "end": 1730054949058
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1730054949058,
+      "end": 1730054949058,
+      "order": "normal"
+    }
+  ]
+}

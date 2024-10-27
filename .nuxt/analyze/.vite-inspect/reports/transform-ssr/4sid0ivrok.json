@@ -1,0 +1,264 @@
+{
+  "resolvedId": "C:/Users/dosor/Desktop/win95/views/Projects/Paper.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <div>\r\n    \r\n    <!-- Titre -->\r\n        <h1>Paper Man</h1>\r\n        <h4 class=\"text-gray-600 font-medium text-xs\" style=\"padding-bottom: 10px; display: flex; gap: 5px;\">\r\n            <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Unity\" src=\"https://img.shields.io/badge/Made%20with-Unity-000000.svg?style=flat&logo=unity\" />\r\n            <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"HLSL\" src=\"https://img.shields.io/badge/-HLSL-8c5aee\" />\r\n\r\n    <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"C#\" src=\"https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white\" />\r\n</h4>\r\n    \r\n        <h4 class=\"text-gray-600 font-medium text-xs\">Done in 2 weeks, April 2023</h4>\r\n        <div class=\"flex flex-wrap mt-5 gap-2 items-center\">\r\n            <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/L25Bizf91eY?si=ffAQ9EMdFW9Fa_fz\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>    \r\n        </div>\r\n\r\n        <div class=\"pt-7\">\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n            This was my first game jam, completed in 4 days. Hosted by <b>ISART DIGITAL</b>'s annual Game Week and sponsored by the <b>InForm Foundation for Information</b>, the theme was:            </p>\r\n\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                <b>The Dangers of Information:\r\n                    Fake News, AI, Information Overload</b>\r\n            </p>\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                Together with a team of 4 Game Artists, 2 Programmers, 2 Game Designers, and 1 Sound Designer, we created <i>Paper Man</i>.            </p>\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                In this game, we follow the adventure of a little man made of newspaper who must turn off televisions that broadcast disinformation and propaganda spread by a dictatorship.            </p>\r\n\r\n\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                My role in the project was to integrate the audio system and 3D spatialization using FMOD, design the camera system, and create various VFX, lighting, and post-processing effects.\r\n            </p>\r\n\r\n    \r\n        </div>\r\n    \r\n    \r\n    </div>\r\n    </template>\r\n\r\n    ",
+      "start": 1730054951016,
+      "end": 1730054951307,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1730054951308,
+      "end": 1730054951308,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1730054951308,
+      "end": 1730054951308,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1730054951308,
+      "end": 1730054951308,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1730054951308,
+      "end": 1730054951308,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1730054951308,
+      "end": 1730054951308,
+      "order": "pre"
+    },
+    {
+      "name": "server-only-component-transform",
+      "start": 1730054951308,
+      "end": 1730054951308,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1730054951308,
+      "end": 1730054951308,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1730054951308,
+      "end": 1730054951308,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1730054951308,
+      "end": 1730054951308,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1730054951309,
+      "end": 1730054951309,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  _push(`<div${\n    _ssrRenderAttrs(_attrs)\n  }><h1>Paper Man</h1><h4 class=\"text-gray-600 font-medium text-xs\" style=\"${\n    _ssrRenderStyle({\"padding-bottom\":\"10px\",\"display\":\"flex\",\"gap\":\"5px\"})\n  }\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Unity\" src=\"https://img.shields.io/badge/Made%20with-Unity-000000.svg?style=flat&amp;logo=unity\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"HLSL\" src=\"https://img.shields.io/badge/-HLSL-8c5aee\"><img class=\"w-auto h-5 rounded-none text-xs\" alt=\"C#\" src=\"https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&amp;logoColor=white\"></h4><h4 class=\"text-gray-600 font-medium text-xs\">Done in 2 weeks, April 2023</h4><div class=\"flex flex-wrap mt-5 gap-2 items-center\"><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/L25Bizf91eY?si=ffAQ9EMdFW9Fa_fz\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div><div class=\"pt-7\"><p class=\"font-thin text-sm pb-2.5\"> This was my first game jam, completed in 4 days. Hosted by <b>ISART DIGITAL</b>&#39;s annual Game Week and sponsored by the <b>InForm Foundation for Information</b>, the theme was: </p><p class=\"font-thin text-sm pb-2.5\"><b>The Dangers of Information: Fake News, AI, Information Overload</b></p><p class=\"font-thin text-sm pb-2.5\"> Together with a team of 4 Game Artists, 2 Programmers, 2 Game Designers, and 1 Sound Designer, we created <i>Paper Man</i>. </p><p class=\"font-thin text-sm pb-2.5\"> In this game, we follow the adventure of a little man made of newspaper who must turn off televisions that broadcast disinformation and propaganda spread by a dictatorship. </p><p class=\"font-thin text-sm pb-2.5\"> My role in the project was to integrate the audio system and 3D spatialization using FMOD, design the camera system, and create various VFX, lighting, and post-processing effects. </p></div></div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"views/Projects/Paper.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
+      "start": 1730054951309,
+      "end": 1730054951311,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/dosor/Desktop/win95/views/Projects/Paper.vue"
+        ],
+        "names": [],
+        "mappings": ";;;EAAA;IAAA,gBAAA;;IAAA,gBAKsD,sDAAsD",
+        "sourcesContent": [
+          "<template>\r\n    <div>\r\n    \r\n    <!-- Titre -->\r\n        <h1>Paper Man</h1>\r\n        <h4 class=\"text-gray-600 font-medium text-xs\" style=\"padding-bottom: 10px; display: flex; gap: 5px;\">\r\n            <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"Unity\" src=\"https://img.shields.io/badge/Made%20with-Unity-000000.svg?style=flat&logo=unity\" />\r\n            <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"HLSL\" src=\"https://img.shields.io/badge/-HLSL-8c5aee\" />\r\n\r\n    <img class=\"w-auto h-5 rounded-none text-xs\" alt=\"C#\" src=\"https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white\" />\r\n</h4>\r\n    \r\n        <h4 class=\"text-gray-600 font-medium text-xs\">Done in 2 weeks, April 2023</h4>\r\n        <div class=\"flex flex-wrap mt-5 gap-2 items-center\">\r\n            <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/L25Bizf91eY?si=ffAQ9EMdFW9Fa_fz\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>    \r\n        </div>\r\n\r\n        <div class=\"pt-7\">\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n            This was my first game jam, completed in 4 days. Hosted by <b>ISART DIGITAL</b>'s annual Game Week and sponsored by the <b>InForm Foundation for Information</b>, the theme was:            </p>\r\n\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                <b>The Dangers of Information:\r\n                    Fake News, AI, Information Overload</b>\r\n            </p>\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                Together with a team of 4 Game Artists, 2 Programmers, 2 Game Designers, and 1 Sound Designer, we created <i>Paper Man</i>.            </p>\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                In this game, we follow the adventure of a little man made of newspaper who must turn off televisions that broadcast disinformation and propaganda spread by a dictatorship.            </p>\r\n\r\n\r\n            <p class=\"font-thin text-sm pb-2.5\">\r\n                My role in the project was to integrate the audio system and 3D spatialization using FMOD, design the camera system, and create various VFX, lighting, and post-processing effects.\r\n            </p>\r\n\r\n    \r\n        </div>\r\n    \r\n    \r\n    </div>\r\n    </template>\r\n\r\n    "
+        ]
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1730054951311,
+      "end": 1730054951311,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951311,
+      "end": 1730054951311,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951311,
+      "end": 1730054951311,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1730054951311,
+      "end": 1730054951312,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1730054951311,
+      "end": 1730054951313,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1730054951314,
+      "end": 1730054951314,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054951314,
+      "end": 1730054951314,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1730054951314,
+      "end": 1730054951314,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1730054951314,
+      "end": 1730054951314,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1730054951315,
+      "end": 1730054951315,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1730054951315,
+      "end": 1730054951315,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1730054951315,
+      "end": 1730054951315,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1730054951315,
+      "end": 1730054951315,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1730054951315,
+      "end": 1730054951315,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1730054951315,
+      "end": 1730054951315,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1730054951315,
+      "end": 1730054951315,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1730054951315,
+      "end": 1730054951315,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1730054951315,
+      "end": 1730054951315,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1730054951315,
+      "end": 1730054951316,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1730054951315,
+      "end": 1730054951316,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1730054951316,
+      "end": 1730054951316,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1730054951316,
+      "end": 1730054951316,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1730054951316,
+      "end": 1730054951316,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1730054951316,
+      "end": 1730054951316,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1730054951316,
+      "end": 1730054951316,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1730054951316,
+      "end": 1730054951316,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1730054951316,
+      "end": 1730054951316,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1730054951316,
+      "end": 1730054951317,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1730054951317,
+      "end": 1730054951317,
+      "order": "normal"
+    }
+  ]
+}

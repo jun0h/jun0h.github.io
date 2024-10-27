@@ -16,8 +16,8 @@ const openWindow = (windowId) => {
 }
   
 const getImagePath = (iconImage) => {
-    const path = `../assets/win95Icons/${iconImage}`;
-    const modules = import.meta.glob("../assets/win95Icons/*", { eager: true });
+    const path = `~/assets/win95Icons/${iconImage}`;
+    const modules = import.meta.glob("~/assets/win95Icons/*", { eager: true });
     const mod = modules[path]
     console.log("ui");
     return mod.default;
@@ -34,7 +34,7 @@ onMounted(() => {
 
 <template>
 <div style="display: flex; align-items: center;">
-    <img class="w-50 h-20" src="@/assets/win95Icons/GodotLogo.png" alt="Godot Logo" />
+    <img class="w-50 h-20" src="../assets/win95Icons/GodotLogo.png" alt="Godot Logo" />
     <h1 style="margin-left: 10px;">Godot Projects</h1>
 </div>
 

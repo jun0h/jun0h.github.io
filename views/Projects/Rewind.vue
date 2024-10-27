@@ -10,7 +10,7 @@
     
         <h4 class="text-gray-600 font-medium text-xs">Done from January to March 2023</h4>
         <div class="flex flex-wrap mt-5 gap-2 items-center">
-        <img class="w-auto h-auto" src="@/assets\GameAssets\rewind\01_TitleCard.png">
+        <img class="w-auto h-auto" src="../assets\GameAssets\rewind\01_TitleCard.png">
     
     
         </div>

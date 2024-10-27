@@ -1,0 +1,281 @@
+{
+  "resolvedId": "C:/Users/dosor/Desktop/win95/views/Resume.vue?vue&type=style&index=0&scoped=82847ac6&lang.css?inline&used",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n.download {\r\n    vertical-align: middle;\r\n    box-shadow: 1.5px 1.5px black;\r\n    border-top: solid rgb(250, 250, 250) 1.5px;\r\n    border-left: solid rgb(250, 250, 250) 1.5px;\r\n    border-bottom: solid rgb(90, 90, 90) 1.5px;\r\n    border-right: solid rgb(90, 90, 90) 1.5px;\r\n    background: rgb(192, 192, 192);\r\n    padding: 2px;\r\n    margin-right: 5px;\r\n}\r\n\r\n.download:active {\r\n    box-shadow: none;\r\n    background: repeating-conic-gradient(rgb(189, 190, 189) 0% 25%,\r\n            rgb(255, 255, 255) 0% 50%) 50% / 2px 2px;\r\n    border-top: solid rgb(0, 0, 0) 1.5px;\r\n    border-left: solid rgb(0, 0, 0) 1.5px;\r\n    border-bottom: solid rgb(250, 250, 250) 1.5px;\r\n    border-right: solid rgb(250, 250, 250) 1.5px;\r\n}\r\n\r\n.download-bar {\r\n    border: 1px white solid;\r\n    outline: 1px rgb(123, 125, 123) solid;\r\n    font-size: 12px;\r\n    padding: 4px 4px 4px 4px;\r\n    width: 100%;\r\n    display: flex;\r\n    flex-direction: row;\r\n}\r\n\r\n.icon-image {\r\n    width: 15px;\r\n    height: 15px;\r\n    margin-right: 5px;\r\n    margin-top: 0;\r\n    margin-bottom: 0;\r\n}\r\n\r\n.border {\r\n    justify-content: center;\r\n    align-items: center;\r\n    border: 1px solid transparent;\r\n    font-family: \"MS Sans Serif\";\r\n    src: url(\"~@/assets/fonts/MS-Sans-Serif.ttf\");\r\n}\r\n\r\n.border:active {\r\n    border: black dotted 1px;\r\n}\r\n\r\n.download:hover {\r\n    cursor: pointer;\r\n}\r\n\r\n.frame {\r\n    width: 100%;\r\n    height: 97.5%;\r\n}\r\n",
+      "start": 1730054950372,
+      "end": 1730054950372
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1730054950374,
+      "end": 1730054950374,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1730054950374,
+      "end": 1730054950374,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1730054950374,
+      "end": 1730054950374,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1730054950374,
+      "end": 1730054950374,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1730054950374,
+      "end": 1730054950374,
+      "order": "pre"
+    },
+    {
+      "name": "server-only-component-transform",
+      "start": 1730054950374,
+      "end": 1730054950374,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".download{background:silver;border-color:#fafafa #5a5a5a #5a5a5a #fafafa;border-style:solid;border-width:1.5px;box-shadow:1.5px 1.5px #000;margin-right:5px;padding:2px;vertical-align:middle}.download:active{background:repeating-conic-gradient(#bdbebd 0 25%,#fff 0 50%) 50% /2px 2px;border-color:#000 #fafafa #fafafa #000;border-style:solid;border-width:1.5px;box-shadow:none}.download-bar{border:1px solid #fff;display:flex;flex-direction:row;font-size:12px;outline:1px solid #7b7d7b;padding:4px;width:100%}.icon-image{height:15px;margin-bottom:0;margin-right:5px;margin-top:0;width:15px}.border{align-items:center;border:1px solid transparent;font-family:\"MS Sans Serif\";justify-content:center;src:url(~@/assets/fonts/MS-Sans-Serif.ttf)}.border:active{border:1px dotted #000}.download:hover{cursor:pointer}.frame{height:97.5%;width:100%}",
+      "start": 1730054950375,
+      "end": 1730054950385,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/dosor/Desktop/win95/views/Resume.vue",
+        "mappings": "AACA,UAOI,iBAA8B,CAD9B,4CAAyC,CAAzC,kBAAyC,CAAzC,kBAAyC,CAJzC,2BAA6B,CAO7B,gBAAiB,CADjB,WAAY,CAPZ,qBASJ,CAEA,iBAEI,0EACgD,CAIhD,sCAA4C,CAA5C,kBAA4C,CAA5C,kBAA4C,CAN5C,eAOJ,CAEA,cACI,qBAAuB,CAKvB,YAAa,CACb,kBAAmB,CAJnB,cAAe,CADf,yBAAqC,CAErC,WAAwB,CACxB,UAGJ,CAEA,YAEI,WAAY,CAGZ,eAAgB,CAFhB,gBAAiB,CACjB,YAAa,CAHb,UAKJ,CAEA,QAEI,kBAAmB,CACnB,4BAA6B,CAC7B,2BAA4B,CAH5B,sBAAuB,CAIvB,0CACJ,CAEA,eACI,sBACJ,CAEA,gBACI,cACJ,CAEA,OAEI,YAAa,CADb,UAEJ",
+        "names": [],
+        "sources": [
+          "C:/Users/dosor/Desktop/win95/views/Resume.vue"
+        ],
+        "sourcesContent": [
+          "\r\n.download {\r\n    vertical-align: middle;\r\n    box-shadow: 1.5px 1.5px black;\r\n    border-top: solid rgb(250, 250, 250) 1.5px;\r\n    border-left: solid rgb(250, 250, 250) 1.5px;\r\n    border-bottom: solid rgb(90, 90, 90) 1.5px;\r\n    border-right: solid rgb(90, 90, 90) 1.5px;\r\n    background: rgb(192, 192, 192);\r\n    padding: 2px;\r\n    margin-right: 5px;\r\n}\r\n\r\n.download:active {\r\n    box-shadow: none;\r\n    background: repeating-conic-gradient(rgb(189, 190, 189) 0% 25%,\r\n            rgb(255, 255, 255) 0% 50%) 50% / 2px 2px;\r\n    border-top: solid rgb(0, 0, 0) 1.5px;\r\n    border-left: solid rgb(0, 0, 0) 1.5px;\r\n    border-bottom: solid rgb(250, 250, 250) 1.5px;\r\n    border-right: solid rgb(250, 250, 250) 1.5px;\r\n}\r\n\r\n.download-bar {\r\n    border: 1px white solid;\r\n    outline: 1px rgb(123, 125, 123) solid;\r\n    font-size: 12px;\r\n    padding: 4px 4px 4px 4px;\r\n    width: 100%;\r\n    display: flex;\r\n    flex-direction: row;\r\n}\r\n\r\n.icon-image {\r\n    width: 15px;\r\n    height: 15px;\r\n    margin-right: 5px;\r\n    margin-top: 0;\r\n    margin-bottom: 0;\r\n}\r\n\r\n.border {\r\n    justify-content: center;\r\n    align-items: center;\r\n    border: 1px solid transparent;\r\n    font-family: \"MS Sans Serif\";\r\n    src: url(\"~@/assets/fonts/MS-Sans-Serif.ttf\");\r\n}\r\n\r\n.border:active {\r\n    border: black dotted 1px;\r\n}\r\n\r\n.download:hover {\r\n    cursor: pointer;\r\n}\r\n\r\n.frame {\r\n    width: 100%;\r\n    height: 97.5%;\r\n}\r\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1730054950385,
+      "end": 1730054950385,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1730054950385,
+      "end": 1730054950385,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1730054950385,
+      "end": 1730054950385,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".download[data-v-82847ac6]{background:silver;border-color:#fafafa #5a5a5a #5a5a5a #fafafa;border-style:solid;border-width:1.5px;box-shadow:1.5px 1.5px #000;margin-right:5px;padding:2px;vertical-align:middle}.download[data-v-82847ac6]:active{background:repeating-conic-gradient(#bdbebd 0 25%,#fff 0 50%) 50% /2px 2px;border-color:#000 #fafafa #fafafa #000;border-style:solid;border-width:1.5px;box-shadow:none}.download-bar[data-v-82847ac6]{border:1px solid #fff;display:flex;flex-direction:row;font-size:12px;outline:1px solid #7b7d7b;padding:4px;width:100%}.icon-image[data-v-82847ac6]{height:15px;margin-bottom:0;margin-right:5px;margin-top:0;width:15px}.border[data-v-82847ac6]{align-items:center;border:1px solid transparent;font-family:\"MS Sans Serif\";justify-content:center;src:url(~@/assets/fonts/MS-Sans-Serif.ttf)}.border[data-v-82847ac6]:active{border:1px dotted #000}.download[data-v-82847ac6]:hover{cursor:pointer}.frame[data-v-82847ac6]{height:97.5%;width:100%}",
+      "start": 1730054950385,
+      "end": 1730054950386,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/dosor/Desktop/win95/views/Resume.vue",
+        "mappings": "AAAA,2BAAU,iBAAiB,CAAC,4CAA4C,CAAC,kBAAkB,CAAC,kBAAkB,CAAC,2BAA2B,CAAC,gBAAgB,CAAC,WAAW,CAAC,qBAAqB,CAAC,kCAAiB,0EAA0E,CAAC,sCAAsC,CAAC,kBAAkB,CAAC,kBAAkB,CAAC,eAAe,CAAC,+BAAc,qBAAqB,CAAC,YAAY,CAAC,kBAAkB,CAAC,cAAc,CAAC,yBAAyB,CAAC,WAAW,CAAC,UAAU,CAAC,6BAAY,WAAW,CAAC,eAAe,CAAC,gBAAgB,CAAC,YAAY,CAAC,UAAU,CAAC,yBAAQ,kBAAkB,CAAC,4BAA4B,CAAC,2BAA2B,CAAC,sBAAsB,CAAC,0CAA0C,CAAC,gCAAe,sBAAsB,CAAC,iCAAgB,cAAc,CAAC,wBAAO,YAAY,CAAC,UAAU",
+        "names": [],
+        "sources": [
+          "C:/Users/dosor/Desktop/win95/views/Resume.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1730054950386,
+      "end": 1730054950386,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054950386,
+      "end": 1730054950386,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054950386,
+      "end": 1730054950386,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1730054950389,
+      "end": 1730054950389,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1730054950389,
+      "end": 1730054950389,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1730054950390,
+      "end": 1730054950390,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1730054950390,
+      "end": 1730054950390,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1730054950392,
+      "end": 1730054950393,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1730054950393,
+      "end": 1730054950393,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default \".download[data-v-82847ac6]{background:silver;border-color:#fafafa #5a5a5a #5a5a5a #fafafa;border-style:solid;border-width:1.5px;box-shadow:1.5px 1.5px #000;margin-right:5px;padding:2px;vertical-align:middle}.download[data-v-82847ac6]:active{background:repeating-conic-gradient(#bdbebd 0 25%,#fff 0 50%) 50% /2px 2px;border-color:#000 #fafafa #fafafa #000;border-style:solid;border-width:1.5px;box-shadow:none}.download-bar[data-v-82847ac6]{border:1px solid #fff;display:flex;flex-direction:row;font-size:12px;outline:1px solid #7b7d7b;padding:4px;width:100%}.icon-image[data-v-82847ac6]{height:15px;margin-bottom:0;margin-right:5px;margin-top:0;width:15px}.border[data-v-82847ac6]{align-items:center;border:1px solid transparent;font-family:\\\"MS Sans Serif\\\";justify-content:center;src:url(~@/assets/fonts/MS-Sans-Serif.ttf)}.border[data-v-82847ac6]:active{border:1px dotted #000}.download[data-v-82847ac6]:hover{cursor:pointer}.frame[data-v-82847ac6]{height:97.5%;width:100%}\"",
+      "start": 1730054950393,
+      "end": 1730054950393,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1730054950394,
+      "end": 1730054950394,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1730054950394,
+      "end": 1730054950394,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1730054950394,
+      "end": 1730054950394,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1730054950395,
+      "end": 1730054950395,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1730054950395,
+      "end": 1730054950395,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1730054950395,
+      "end": 1730054950395,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1730054950395,
+      "end": 1730054950395,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1730054950395,
+      "end": 1730054950395,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1730054950395,
+      "end": 1730054950395,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1730054950395,
+      "end": 1730054950397,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1730054950398,
+      "end": 1730054950398,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1730054950398,
+      "end": 1730054950398,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1730054950399,
+      "end": 1730054950399,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1730054950399,
+      "end": 1730054950399,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1730054950400,
+      "end": 1730054950400,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1730054950401,
+      "end": 1730054950401,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1730054950402,
+      "end": 1730054950402,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1730054950402,
+      "end": 1730054950402,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1730054950402,
+      "end": 1730054950402,
+      "order": "normal"
+    }
+  ]
+}

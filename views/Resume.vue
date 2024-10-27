@@ -10,14 +10,14 @@ const windowsStore = useWindowsStore()
     <nav class="download-bar">
         <a href="/files/CV_Danilo_OSORIO_Revised.pdf" class="download" style="z-index: 10" download target="_blank">
             <span style="display: flex" class="border">
-                <img src="@/assets/Resume/download.png" class="icon-image" />
+                <img src="../assets/Resume/download.png" class="icon-image" />
                 <p style="margin-top: 2px">Download</p>
             </span>
         </a>
 
         <a href="/files/CV_Danilo_OSORIO_Revised.pdf" class="download" style="z-index: 10" target="_blank">
             <span style="display: flex" class="border">
-                <img src="@/assets/Resume/open.png" class="icon-image" />
+                <img src="../assets/Resume/open.png" class="icon-image" />
                 <p style="margin-top: 2px">Open In New Tab</p>
             </span>
         </a>
@@ -77,7 +77,7 @@ const windowsStore = useWindowsStore()
     align-items: center;
     border: 1px solid transparent;
     font-family: "MS Sans Serif";
-    src: url("~@/assets/fonts/MS-Sans-Serif.ttf");
+    src: url("~/assets/fonts/MS-Sans-Serif.ttf");
 }
 
 .border:active {

@@ -34,7 +34,7 @@ onMounted(() => {
 
 <template>
 <div style="display: flex; align-items: center;">
-    <img class="w-50 h-20" src="@/assets/win95Icons/UnityLogo.png" alt="Unity Logo" />
+    <img class="w-50 h-20" src="../assets/win95Icons/UnityLogo.png" alt="Unity Logo" />
     <h1 style="margin-left: 10px;">Unity Projects</h1>
 </div>
 

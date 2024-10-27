@@ -1,0 +1,17 @@
+{
+  "resolvedId": "C:/Users/dosor/Desktop/win95/node_modules/nuxt/dist/app/types.js",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "",
+      "start": 1730054948605,
+      "end": 1730054948605
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1730054948605,
+      "end": 1730054948605,
+      "order": "normal"
+    }
+  ]
+}
