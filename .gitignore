@@ -1,12 +1,12 @@
 .DS_Store
 node_modules
-/dist
+# /dist
 .output
 .data
 .nuxt
 .nitro
 .cache
-dist
+# dist
 
 
 # local env files
